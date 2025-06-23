@@ -9,3 +9,9 @@ Welcome to the workshop site! This workshop explores how a digitized photographi
 🧠 Try the [Hands-On Activities](activities.md)  
 📊 Explore our [SPARQL Queries](queries.md)  
 📚 Learn more [About the Project](about.md)
+
+
+<hr>
+<p style="text-align: center; margin-top: 2em;">
+  <img src="assets/images/unlv_sca_logo.png" alt="UNLV Special Collections & Archives Logo" style="max-width: 200px;">
+</p>
