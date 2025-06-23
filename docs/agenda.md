@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="style.css">
+
 # Workshop Agenda
 
 **Total time**: 90 minutes  
