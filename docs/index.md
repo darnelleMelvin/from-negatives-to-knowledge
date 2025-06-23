@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="style.css">
+
 # Modeling Community Memory  
 ## Building a Knowledge Graph from Las Vegas’s Historic Westside
 
