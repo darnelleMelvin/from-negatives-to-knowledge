@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="style.css">
+
 # About the Project
 
 ## Clinton Wright Photograph Collection
