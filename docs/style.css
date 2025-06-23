@@ -1,0 +1,78 @@
+/* Base styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+  padding: 2em;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Headings */
+h1 {
+  color: #B10202;
+  font-size: 2.5em;
+  margin-bottom: 0.2em;
+}
+
+h2 {
+  color: #666666;
+  font-size: 2em;
+  margin-top: 1.5em;
+}
+
+h3 {
+  color: #B10202;
+  font-size: 1.5em;
+  margin-top: 1.2em;
+}
+
+/* Links */
+a {
+  color: #B10202;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Code blocks */
+code, pre {
+  background-color: #f4f4f4;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-family: monospace;
+  color: #B10202;
+}
+
+pre {
+  padding: 1em;
+  overflow-x: auto;
+}
+
+/* Horizontal rule */
+hr {
+  border: none;
+  border-top: 2px solid #666666;
+  margin: 2em 0;
+}
+
+/* Lists */
+ul {
+  padding-left: 1.5em;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+/* Footer or credits */
+footer {
+  font-size: 0.9em;
+  color: #666666;
+  margin-top: 3em;
+  border-top: 1px solid #ccc;
+  padding-top: 1em;
+}
