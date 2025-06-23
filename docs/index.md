@@ -1,7 +1,8 @@
 <link rel="stylesheet" href="style.css">
 
 # From Negatives to Knowledge: Linking Community Archives with RDF
-### Workshop Facilitated by Darnelle Melvin and Cory Lampert
+## 2025 LD4 Confernece on Linked Data
+### Workshop Facilitated by Darnelle Melvin and Cory Lampert on Monday, July 28, 2025.
 
 Welcome to the workshop site! This workshop explores how a digitized photographic collection documenting Las Vegas’s Historic Westside was transformed into a knowledge graph using linked data principles.
 
