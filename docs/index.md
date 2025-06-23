@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="style.css">
 
 # From Negatives to Knowledge:  
-## Linking Community Archives with RDF
+### Linking Community Archives with RDF
 
 Welcome to the workshop site! This workshop explores how a digitized photographic collection documenting Las Vegas’s Historic Westside was transformed into a knowledge graph using linked data principles.
 
