@@ -89,6 +89,12 @@ h1, header h1, .page-header {
 }
 */
 
+.page-header {
+  display: none;
+}
+
+
+
 /* Hide default theme footer */
 footer, .site-footer, .page-footer, .footer {
   display: none !important;
