@@ -83,13 +83,8 @@ img.logo-home {
   padding: 0 !important;
   display: block;
 }
-/*
-h1, header h1, .page-header {
-  display: none;
-}
-*/
 
-header h1, .page-header {
+h1, header h1, .page-header {
   display: none;
 }
 
