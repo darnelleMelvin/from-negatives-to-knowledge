@@ -24,10 +24,7 @@ This page provides reference materials, controlled vocabularies, and tools that 
   [https://www.geonames.org/ontology/documentation.html](https://www.geonames.org/ontology/documentation.html)  
   A geographical ontology and database that provides identifiers and structured descriptions for cities, regions, and physical features, supporting geographic context in linked data.
 
-  [https://www.geonames.org/]()  
-  A geographical database for modeling places and geographic coordinates.
-
-- **RDF 1.1 Primer**  
+ - **RDF 1.1 Primer**  
   [https://www.w3.org/TR/rdf11-primer/](https://www.w3.org/TR/rdf11-primer/)  
   An introduction to modeling knowledge using RDF triples and serialization formats.
 
