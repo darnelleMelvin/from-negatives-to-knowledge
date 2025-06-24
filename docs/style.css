@@ -121,3 +121,7 @@ footer, .site-footer, .page-footer, .footer {
   margin: 0;
 }
 
+body > h1:first-of-type,
+body > a[href*="github.com"]:first-of-type {
+  display: none;
+}
