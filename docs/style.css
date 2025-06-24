@@ -99,6 +99,7 @@ header h1, .page-header {
 footer, .site-footer, .page-footer, .footer {
   display: none !important;
 }
+
 /*
 .logo-home {
   display: block;
