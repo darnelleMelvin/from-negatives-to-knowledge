@@ -44,7 +44,7 @@ This page provides reference materials, controlled vocabularies, and tools that 
   [https://query.wikidata.org/](https://query.wikidata.org/)  
   A browser-based interface to test and visualize SPARQL queries using Wikidata's endpoint.
 
-- **DBpedia SPARQL Endpoint**
+- **DBpedia SPARQL Endpoint**   
   [https://dbpedia.org/sparql](https://dbpedia.org/sparql)
   A public endpoint to query structured data extracted from Wikipedia.
 
