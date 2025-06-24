@@ -80,3 +80,7 @@ footer {
 img {
   margin-top: 0 !important;
 }
+
+h1, header h1, .page-header {
+  display: none;
+}
