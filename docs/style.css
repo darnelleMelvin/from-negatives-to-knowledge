@@ -77,8 +77,10 @@ footer {
   padding-top: 1em;
 }
 
-img {
+img.logo-home {
   margin-top: 0 !important;
+  margin-left: 0 !important;
+  display: block;
 }
 
 h1, header h1, .page-header {
