@@ -8,7 +8,6 @@ This page provides reference materials, controlled vocabularies, and tools that 
 
 ## 🔖 Core Vocabularies and Standards
 
-## 🔖 Core Vocabularies and Standards
 
 - **AgRelOn (Agent Relationship Ontology)**  
   [https://d-nb.info/standards/elementset/agrelon](https://d-nb.info/standards/elementset/agrelon)  
