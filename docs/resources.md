@@ -44,6 +44,10 @@ This page provides reference materials, controlled vocabularies, and tools that 
   [https://query.wikidata.org/](https://query.wikidata.org/)  
   A browser-based interface to test and visualize SPARQL queries using Wikidata's endpoint.
 
+- **DBpedia SPARQL Endpoint**
+  [https://dbpedia.org/sparql](https://dbpedia.org/sparql)
+  A public endpoint to query structured data extracted from Wikipedia.
+
 - **OpenRefine + RDF Extension**  
   [https://openrefine.org/](https://openrefine.org/)  
   Data cleaning and transformation tool with plugins to export to RDF.
