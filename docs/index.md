@@ -10,6 +10,7 @@ Welcome to the workshop site! This workshop explores how a digitized photographi
 🧠 Try the [Hands-On Activities](activities.md)  
 📊 Explore our [SPARQL Queries](queries.md)  
 📚 Learn more [About the Project](about.md)
+📚 Essential [Resources Related to the Project](resources.md)
 
 
 <hr>
