@@ -80,6 +80,7 @@ footer {
 img.logo-home {
   margin-top: 0 !important;
   margin-left: 0 !important;
+  padding: 0 !important;
   display: block;
 }
 
@@ -90,9 +91,11 @@ h1, header h1, .page-header {
 footer, .site-footer, .page-footer, .footer {
   display: none !important;
 }
+/*
 .logo-home {
   display: block;
   margin: 0 !important;
   padding: 0 !important;
   float: left;
 }
+*/
