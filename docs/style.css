@@ -84,10 +84,15 @@ img.logo-home {
   display: block;
 }
 
+/*
 h1, header h1, .page-header {
   display: none;
 }
+*/
 
+.site-header, .page-header, header h1.site-title {
+  display: none;
+}
 
 
 /* Hide default theme footer */
