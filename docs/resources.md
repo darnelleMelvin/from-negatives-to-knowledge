@@ -8,13 +8,7 @@ This page provides reference materials, controlled vocabularies, and tools that 
 
 ## 🔖 Core Vocabularies and Standards
 
-- **SKOS (Simple Knowledge Organization System)**  
-  [https://www.w3.org/TR/skos-reference/](https://www.w3.org/TR/skos-reference/)  
-  Used to represent controlled vocabularies, including named concepts for people, places, and events.
-
-- **Schema.org**  
-  [https://schema.org/](https://schema.org/)  
-  A common vocabulary used to describe entities such as people, organizations, events, and locations.
+## 🔖 Core Vocabularies and Standards
 
 - **AgRelOn (Agent Relationship Ontology)**  
   [https://d-nb.info/standards/elementset/agrelon](https://d-nb.info/standards/elementset/agrelon)  
@@ -24,7 +18,11 @@ This page provides reference materials, controlled vocabularies, and tools that 
   [https://www.geonames.org/ontology/documentation.html](https://www.geonames.org/ontology/documentation.html)  
   A geographical ontology and database that provides identifiers and structured descriptions for cities, regions, and physical features, supporting geographic context in linked data.
 
- - **RDF 1.1 Primer**  
+- **OWL (Web Ontology Language)**  
+  [https://www.w3.org/TR/owl2-primer/](https://www.w3.org/TR/owl2-primer/)  
+  A formal language for creating ontologies with rich semantics, including class hierarchies and constraints.
+
+- **RDF 1.1 Primer**  
   [https://www.w3.org/TR/rdf11-primer/](https://www.w3.org/TR/rdf11-primer/)  
   An introduction to modeling knowledge using RDF triples and serialization formats.
 
@@ -32,9 +30,17 @@ This page provides reference materials, controlled vocabularies, and tools that 
   [https://www.w3.org/TR/rdf-schema/](https://www.w3.org/TR/rdf-schema/)  
   Provides mechanisms for describing groups of related resources and relationships between them.
 
-- **OWL (Web Ontology Language)**  
-  [https://www.w3.org/TR/owl2-primer/](https://www.w3.org/TR/owl2-primer/)  
-  A formal language for creating ontologies with rich semantics, including class hierarchies and constraints.
+- **Schema.org**  
+  [https://schema.org/](https://schema.org/)  
+  A common vocabulary used to describe entities such as people, organizations, events, and locations.
+
+- **SKOS (Simple Knowledge Organization System)**  
+  [https://www.w3.org/TR/skos-reference/](https://www.w3.org/TR/skos-reference/)  
+  Used to represent controlled vocabularies, including named concepts for people, places, and events.
+
+- **XSD (XML Schema Definition)**  
+  [https://www.w3.org/XML/Schema](https://www.w3.org/XML/Schema)  
+  Defines data types used in RDF and XML, such as date, integer, and string, for consistent data typing.
 
 ---
 
