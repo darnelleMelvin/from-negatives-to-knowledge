@@ -6,7 +6,7 @@
   </a>
 </p>
 
-# Hands-On Activities
+# 🧠 Hands-On Activities
 
 ## 1. Entity Annotation
 Look at this sample image from the Clinton Wright Collection.  
