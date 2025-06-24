@@ -21,7 +21,10 @@ This page provides reference materials, controlled vocabularies, and tools that 
   Models social, familial, and professional relationships between agents.
 
 - **GeoNames Ontology**  
-  [https://www.geonames.org/](https://www.geonames.org/)  
+  [https://www.geonames.org/ontology/documentation.html](https://www.geonames.org/ontology/documentation.html)  
+  A geographical ontology and database that provides identifiers and structured descriptions for cities, regions, and physical features, supporting geographic context in linked data.
+
+  [https://www.geonames.org/]()  
   A geographical database for modeling places and geographic coordinates.
 
 - **RDF 1.1 Primer**  
