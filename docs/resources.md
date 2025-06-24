@@ -1,5 +1,11 @@
 <link rel="stylesheet" href="style.css">
 
+<p align="left">
+  <a href="index.md">
+    <img src="assets/images/negative2nodeInverse_logo.png" alt="Home" style="height: 250px;">
+  </a>
+</p>
+
 # 📚 Resources
 
 This page provides reference materials, controlled vocabularies, and tools that support the RDF modeling and querying used in this workshop.
