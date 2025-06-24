@@ -5,7 +5,7 @@
   </a>
 </p>
 
-# Workshop Agenda
+# 🗓 Workshop Agenda
 
 **Total time**: 90 minutes  
 - Introduction & Origin Story – 10 min  
