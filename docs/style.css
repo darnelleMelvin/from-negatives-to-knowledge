@@ -90,7 +90,7 @@ h1, header h1, .page-header {
 }
 */
 
-.site-header, .page-header, header h1.site-title {
+body > h1:first-of-type {
   display: none;
 }
 
