@@ -6,7 +6,7 @@
   </a>
 </p>
 
-# 📚 Resources
+# 🔗 Resources
 
 This page provides reference materials, controlled vocabularies, and tools that support the RDF modeling and querying used in this workshop.
 
