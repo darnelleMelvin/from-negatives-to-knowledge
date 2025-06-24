@@ -20,7 +20,7 @@ This page provides reference materials, controlled vocabularies, and tools that 
   [https://d-nb.info/standards/elementset/agrelon](https://d-nb.info/standards/elementset/agrelon)  
   Models social, familial, and professional relationships between agents.
 
-- **GeoNames**  
+- **GeoNames Ontology**  
   [https://www.geonames.org/](https://www.geonames.org/)  
   A geographical database for modeling places and geographic coordinates.
 
