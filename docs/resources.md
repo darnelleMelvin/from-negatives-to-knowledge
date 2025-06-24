@@ -44,7 +44,7 @@ This page provides reference materials, controlled vocabularies, and tools that 
   Used to represent controlled vocabularies, including named concepts for people, places, and events.
 
 - **XSD (XML Schema Definition)**  
-  [https://www.w3.org/XML/Schema](https://www.w3.org/XML/Schema)  
+  [http://www.w3.org/2001/XMLSchema#](https://www.w3.org/2001/XMLSchema#)  
   Defines data types used in RDF and XML, such as date, integer, and string, for consistent data typing.
 
 ---
