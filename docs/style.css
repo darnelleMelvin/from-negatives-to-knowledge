@@ -99,3 +99,16 @@ footer, .site-footer, .page-footer, .footer {
   float: left;
 }
 */
+
+.logo-container {
+  display: flex;
+  justify-content: flex-start; /* aligns to left */
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.logo-home {
+  height: 250px;
+  margin: 0;
+}
+
