@@ -40,21 +40,25 @@ This page provides reference materials, controlled vocabularies, and tools that 
 
 ## 🧰 Tools and Services
 
-- **Wikidata Query Service**  
-  [https://query.wikidata.org/](https://query.wikidata.org/)  
-  A browser-based interface to test and visualize SPARQL queries using Wikidata's endpoint.
-
-- **DBpedia SPARQL Endpoint**  
+- **CSV-2-RDF-Converter:**
+  [https://github.com/darnelleMelvin/CSV-2-RDF-Converter](https://github.com/darnelleMelvin/CSV-2-RDF-Converter)  
+  A Python script that converts CSV files into RDF triples in the .nt serialization format.
+  
+- **DBpedia SPARQL Endpoint:**
   [https://dbpedia.org/sparql](https://dbpedia.org/sparql)  
   A public endpoint to query structured data extracted from Wikipedia.
-
-- **OpenRefine + RDF Extension**  
+  
+- **OpenRefine + RDF Extension:**
   [https://openrefine.org/](https://openrefine.org/)  
-  Data cleaning and transformation tool with plugins to export to RDF.
-
-- **Protégé**  
+  A powerful tool for cleaning and transforming tabular data, including RDF export.
+  
+- **Protégé (OWL Ontology Editor):**
   [https://protege.stanford.edu/](https://protege.stanford.edu/)  
-  Ontology editor for building and navigating OWL and RDF vocabularies.
+  An open-source platform for building and exploring ontologies in OWL and RDF.
+  
+- **Wikidata Query Service:**
+  [https://query.wikidata.org/](https://query.wikidata.org/)  
+  A browser-based interface to write and test SPARQL queries on Wikidata.
 
 ---
 
