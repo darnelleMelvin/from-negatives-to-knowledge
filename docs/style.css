@@ -69,49 +69,22 @@ li {
 }
 
 /* Footer or credits */
-footer {
-  font-size: 0.9em;
-  color: #666666;
-  margin-top: 3em;
-  border-top: 1px solid #ccc;
-  padding-top: 1em;
-}
-
-img.logo-home {
-  margin-top: 0 !important;
-  margin-left: 0 !important;
-  padding: 0 !important;
-  display: block;
-}
-
-/*
-h1, header h1, .page-header {
-  display: none;
-}
-*/
-
-body > h1:first-of-type {
-  display: none;
-}
-
-
-/* Hide default theme footer */
-footer, .site-footer, .page-footer, .footer {
+footer,
+.site-footer,
+.page-footer,
+.footer {
   display: none !important;
 }
 
-/*
-.logo-home {
-  display: block;
-  margin: 0 !important;
-  padding: 0 !important;
-  float: left;
+/* Hide default GitHub Pages header title */
+.container-lg > h1:first-of-type {
+  display: none !important;
 }
-*/
 
+/* Logo layout */
 .logo-container {
   display: flex;
-  justify-content: flex-start; /* aligns to left */
+  justify-content: flex-start;
   align-items: center;
   margin-bottom: 1rem;
 }
@@ -119,9 +92,5 @@ footer, .site-footer, .page-footer, .footer {
 .logo-home {
   height: 250px;
   margin: 0;
-}
-
-body > h1:first-of-type,
-body > a[href*="github.com"]:first-of-type {
-  display: none;
+  display: block;
 }
