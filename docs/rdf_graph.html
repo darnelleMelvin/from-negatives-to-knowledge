@@ -20,7 +20,7 @@
 <script>
   const store = $rdf.graph();
   const fetcher = new $rdf.Fetcher(store);
-  const uri = "data.rdf"; // path to your RDF file
+  const uri = "negative2Nodes.nt"; // path to your RDF file
 
   fetcher.load(uri).then(() => {
     const triples = store.statementsMatching(undefined, undefined, undefined);
