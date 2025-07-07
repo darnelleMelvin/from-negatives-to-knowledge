@@ -1,25 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>RDF Graph Viewer (.nt)</title>
-  <script src="https://d3js.org/d3.v7.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/rdflib@latest/dist/rdflib.min.js"></script>
-  <style>
-    body { font-family: sans-serif; }
-    svg { width: 100%; height: 600px; border: 1px solid #ccc; }
-    .link { stroke: #999; stroke-opacity: 0.6; }
-    .node circle { fill: #1f77b4; r: 6; }
-    .node text { font-size: 10px; pointer-events: none; }
-  </style>
-</head>
-<body>
-<h2>RDF Graph from N-Triples</h2>
-<svg id="graph"></svg>
-
 <script>
   const store = $rdf.graph();
-  const uri = "negative2Nodes.nt";  // 🔁 Adjust path if needed
+  const uri = "negative2Nodes.nt";
 
   fetch(uri)
     .then(res => {
@@ -27,71 +8,15 @@
       return res.text();
     })
     .then(text => {
-      $rdf.parse(text, store, uri, "application/n-triples");
+      // Parse as text/plain instead of application/n-triples
+      $rdf.parse(text, store, uri, "text/plain");
+      
       const triples = store.statementsMatching(undefined, undefined, undefined);
       console.log("Loaded", triples.length, "triples");
-
-      const nodes = {};
-      const links = [];
-
-      triples.forEach(({subject, predicate, object}) => {
-        const s = subject.value;
-        const o = object.value;
-        const p = predicate.value;
-
-        if (!nodes[s]) nodes[s] = { id: s };
-        if (!nodes[o]) nodes[o] = { id: o };
-        links.push({ source: s, target: o, label: p });
-      });
-
-      const graph = {
-        nodes: Object.values(nodes),
-        links
-      };
-
-      const svg = d3.select("#graph"),
-            width = svg.node().getBoundingClientRect().width,
-            height = 600;
-
-      const simulation = d3.forceSimulation(graph.nodes)
-        .force("link", d3.forceLink(graph.links).id(d => d.id).distance(100))
-        .force("charge", d3.forceManyBody().strength(-300))
-        .force("center", d3.forceCenter(width / 2, height / 2));
-
-      const link = svg.append("g")
-          .attr("class", "links")
-        .selectAll("line")
-        .data(graph.links)
-        .enter().append("line")
-          .attr("class", "link");
-
-      const node = svg.append("g")
-          .attr("class", "nodes")
-        .selectAll("g")
-        .data(graph.nodes)
-        .enter().append("g");
-
-      node.append("circle");
-
-      node.append("text")
-          .attr("x", 8)
-          .attr("y", 4)
-          .text(d => d.id.split(/[\/#]/).pop());
-
-      simulation.on("tick", () => {
-        link
-          .attr("x1", d => d.source.x)
-          .attr("y1", d => d.source.y)
-          .attr("x2", d => d.target.x)
-          .attr("y2", d => d.target.y);
-
-        node
-          .attr("transform", d => `translate(${d.x},${d.y})`);
-      });
+      
+      // ... your graph drawing code here ...
     })
     .catch(error => {
       console.error("Failed to load or parse RDF:", error);
     });
 </script>
-</body>
-</html>
