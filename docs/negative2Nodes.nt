@@ -1,0 +1,383 @@
+<https://special.library.unlv.edu/taxonomy/term/17788> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://special.library.unlv.edu/taxonomy/term/17788> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://special.library.unlv.edu/taxonomy/term/17788> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hoggard, Verlia Davis"@en .
+<https://special.library.unlv.edu/taxonomy/term/17788> <http://www.w3.org/2004/02/skos/core#note> "Community leader and public servant in Las Vegas, Nevada. Born in Little Rock, Arkansas, and a graduate of A.M.&N. College (now the University of Arkansas at Pine Bluff), Hoggard served as Director of Welfare for 32 years. She was active in numerous civic and social organizations, including the NAACP, Top Ladies of Distinction, Links, Alpha Kappa Alpha Sorority, and the Clark County Library Board. A member of First African Methodist Episcopal Church, she also contributed to the Arkansas State Press and worked for the Economic Opportunity Board."@en .
+<https://special.library.unlv.edu/taxonomy/term/17788> <http://schema.org/birthDate> "1936-03-21"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://special.library.unlv.edu/taxonomy/term/17788> <http://schema.org/deathDate> "2020-02-27"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://id.loc.gov/authorities/subjects/sh88004175> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://id.loc.gov/authorities/subjects/sh88004175> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Occupation> .
+<https://special.library.unlv.edu/taxonomy/term/27746> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://special.library.unlv.edu/taxonomy/term/27746> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CollegeOrUniversity> .
+<https://sws.geonames.org/7318056/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://sws.geonames.org/7318056/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/AdministrativeArea> .
+<https://special.library.unlv.edu/taxonomy/term/16527> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://special.library.unlv.edu/taxonomy/term/16527> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://special.library.unlv.edu/taxonomy/term/16527> <http://www.w3.org/2004/02/skos/core#prefLabel> "West, Charles I., 1908-1984"@en .
+<https://special.library.unlv.edu/taxonomy/term/16527> <http://www.w3.org/2004/02/skos/core#note> "American doctor and civil rights activist."@en .
+<https://special.library.unlv.edu/taxonomy/term/16527> <http://schema.org/birthDate> "1908-09-27"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://special.library.unlv.edu/taxonomy/term/16527> <http://schema.org/deathDate> "1984-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://id.loc.gov/authorities/subjects/sh85101610> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://id.loc.gov/authorities/subjects/sh85101610> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Occupation> .
+<https://special.library.unlv.edu/taxonomy/term/26372> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://special.library.unlv.edu/taxonomy/term/26372> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CollegeOrUniversity> .
+<https://sws.geonames.org/4138106/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://sws.geonames.org/4138106/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/AdministrativeArea> .
+<https://special.library.unlv.edu/taxonomy/term/26371> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://special.library.unlv.edu/taxonomy/term/26371> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CollegeOrUniversity> .
+<http://id.loc.gov/authorities/subjects/sh85026385> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://id.loc.gov/authorities/subjects/sh85026385> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Occupation> .
+<https://special.library.unlv.edu/taxonomy/term/27781> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://special.library.unlv.edu/taxonomy/term/27781> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://special.library.unlv.edu/taxonomy/term/27781> <http://www.w3.org/2004/02/skos/core#prefLabel> "West, Dottie (Dorothy)"@en .
+<https://special.library.unlv.edu/taxonomy/term/27781> <http://www.w3.org/2004/02/skos/core#note> "Wife of Charles I. West, mother of John P. West, and editorial consultant for the Las Vegas Voice."@en .
+<http://id.loc.gov/authorities/subjects/sh85031469> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://id.loc.gov/authorities/subjects/sh85031469> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Occupation> .
+<https://special.library.unlv.edu/taxonomy/term/17559> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://special.library.unlv.edu/taxonomy/term/17559> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://special.library.unlv.edu/taxonomy/term/17559> <http://www.w3.org/2004/02/skos/core#prefLabel> "West, John P., 1939-2005"@en .
+<https://special.library.unlv.edu/taxonomy/term/17559> <http://www.w3.org/2004/02/skos/core#note> "Managing Editor for the Las Vegas voice."@en .
+<https://special.library.unlv.edu/taxonomy/term/17559> <http://schema.org/birthDate> "1939"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://special.library.unlv.edu/taxonomy/term/17559> <http://schema.org/deathDate> "2005"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://id.loc.gov/authorities/subjects/sh90003323> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://id.loc.gov/authorities/subjects/sh90003323> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Occupation> .
+<https://special.library.unlv.edu/taxonomy/term/13280> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://special.library.unlv.edu/taxonomy/term/13280> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Organization> .
+<https://special.library.unlv.edu/taxonomy/term/17776> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://special.library.unlv.edu/taxonomy/term/17776> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://special.library.unlv.edu/taxonomy/term/17776> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wright, Clinton, 1940-"@en .
+<https://special.library.unlv.edu/taxonomy/term/17776> <http://www.w3.org/2004/02/skos/core#note> "African American photographer with a focus on capturing day-to-day community life in Las Vegas."@en .
+<https://special.library.unlv.edu/taxonomy/term/17776> <http://schema.org/birthDate> "1940"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://id.loc.gov/authorities/subjects/sh85101179> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://id.loc.gov/authorities/subjects/sh85101179> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Occupation> .
+<https://special.library.unlv.edu/taxonomy/term/15502> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://special.library.unlv.edu/taxonomy/term/15502> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://special.library.unlv.edu/taxonomy/term/15502> <http://www.w3.org/2004/02/skos/core#prefLabel> "Key, Alice, 1911-2010"@en .
+<https://special.library.unlv.edu/taxonomy/term/15502> <http://www.w3.org/2004/02/skos/core#note> "American journalist and community activist (1911-2010)."@en .
+<https://special.library.unlv.edu/taxonomy/term/15502> <http://schema.org/birthDate> "1911-03-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://special.library.unlv.edu/taxonomy/term/15502> <http://schema.org/deathDate> "2010-09-29"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://id.loc.gov/authorities/subjects/sh85070788> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://id.loc.gov/authorities/subjects/sh85070788> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Occupation> .
+<https://special.library.unlv.edu/taxonomy/term/26369> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://special.library.unlv.edu/taxonomy/term/26369> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CollegeOrUniversity> .
+<https://www.geonames.org/7170179/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://www.geonames.org/7170179/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/AdministrativeArea> .
+<https://special.library.unlv.edu/taxonomy/term/6660> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://special.library.unlv.edu/taxonomy/term/6660> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Organization> .
+<https://special.library.unlv.edu/taxonomy/term/7501> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://special.library.unlv.edu/taxonomy/term/7501> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Organization> .
+<http://id.loc.gov/authorities/subjects/sh85035655> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://id.loc.gov/authorities/subjects/sh85035655> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Occupation> .
+<http://id.loc.gov/authorities/subjects/sh2008001494> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://id.loc.gov/authorities/subjects/sh2008001494> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Occupation> .
+<https://special.library.unlv.edu/taxonomy/term/6025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://special.library.unlv.edu/taxonomy/term/6025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://special.library.unlv.edu/taxonomy/term/6025> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kellar, Charles"@en .
+<https://special.library.unlv.edu/taxonomy/term/6025> <http://www.w3.org/2004/02/skos/core#note> "American attorney and civil rights leader (1909-2002)."@en .
+<https://special.library.unlv.edu/taxonomy/term/6025> <http://schema.org/birthDate> "1909-06-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://special.library.unlv.edu/taxonomy/term/6025> <http://schema.org/deathDate> "2002-06-25"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://special.library.unlv.edu/taxonomy/term/26393> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://special.library.unlv.edu/taxonomy/term/26393> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CollegeOrUniversity> .
+<http://id.loc.gov/authorities/subjects/sh85075351> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://id.loc.gov/authorities/subjects/sh85075351> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Occupation> .
+<https://special.library.unlv.edu/taxonomy/term/1758> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://special.library.unlv.edu/taxonomy/term/1758> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://special.library.unlv.edu/taxonomy/term/1758> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bailey, William Henry, 1927-2014"@en .
+<https://special.library.unlv.edu/taxonomy/term/1758> <http://www.w3.org/2004/02/skos/core#note> "American entertainer, businessman, and civil rights activist."@en .
+<https://special.library.unlv.edu/taxonomy/term/1758> <http://schema.org/birthDate> "1927-02-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://special.library.unlv.edu/taxonomy/term/1758> <http://schema.org/deathDate> "2014-05-24"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://special.library.unlv.edu/taxonomy/term/7416> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://special.library.unlv.edu/taxonomy/term/7416> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Organization> .
+<https://special.library.unlv.edu/taxonomy/term/27712> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://special.library.unlv.edu/taxonomy/term/27712> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CollegeOrUniversity> .
+<https://sws.geonames.org/4990752/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://sws.geonames.org/4990752/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/AdministrativeArea> .
+<https://special.library.unlv.edu/taxonomy/term/27957> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://special.library.unlv.edu/taxonomy/term/27957> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CollegeOrUniversity> .
+<https://special.library.unlv.edu/taxonomy/term/27958> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://special.library.unlv.edu/taxonomy/term/27958> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CollegeOrUniversity> .
+<http://id.loc.gov/authorities/subjects/sh85133594> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://id.loc.gov/authorities/subjects/sh85133594> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Occupation> .
+<http://id.loc.gov/authorities/subjects/sh96010352> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://id.loc.gov/authorities/subjects/sh96010352> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Occupation> .
+<https://special.library.unlv.edu/taxonomy/term/16510> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://special.library.unlv.edu/taxonomy/term/16510> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://special.library.unlv.edu/taxonomy/term/16510> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gay, James A., III, 1916-1999"@en .
+<https://special.library.unlv.edu/taxonomy/term/16510> <http://www.w3.org/2004/02/skos/core#note> "American hotel executive and civil rights leader."@en .
+<https://special.library.unlv.edu/taxonomy/term/16510> <http://schema.org/birthDate> "1916-03-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://special.library.unlv.edu/taxonomy/term/16510> <http://schema.org/deathDate> "1999-09-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://special.library.unlv.edu/taxonomy/term/8834> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://special.library.unlv.edu/taxonomy/term/8834> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Organization> .
+<https://sws.geonames.org/7169459/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://sws.geonames.org/7169459/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/AdministrativeArea> .
+<https://special.library.unlv.edu/taxonomy/term/25144> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://special.library.unlv.edu/taxonomy/term/25144> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Organization> .
+<http://id.worldcat.org/fast/848273> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://id.worldcat.org/fast/848273> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Occupation> .
+<http://id.loc.gov/authorities/subjects/sh85062486> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://id.loc.gov/authorities/subjects/sh85062486> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Occupation> .
+<https://special.library.unlv.edu/taxonomy/term/26718> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://special.library.unlv.edu/taxonomy/term/26718> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://special.library.unlv.edu/taxonomy/term/26718> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wilburn, Larry"@en .
+<https://special.library.unlv.edu/taxonomy/term/26718> <http://www.w3.org/2004/02/skos/core#note> "Owner and operator of Larry’s Music Bar, a 1960s Las Vegas business located at 1318 N. D Street that specialized in records, home high-fidelity audio systems, car stereos, and televisions. He also owned the Sight & Sound Center at 811 West Owens Avenue, another retail outlet offering similar audio-visual equipment and media during the same era." .
+<https://special.library.unlv.edu/taxonomy/term/27983> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://special.library.unlv.edu/taxonomy/term/27983> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://special.library.unlv.edu/taxonomy/term/27983> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lynn, Miss (Dee Dee)"@en .
+<https://special.library.unlv.edu/taxonomy/term/27983> <http://www.w3.org/2004/02/skos/core#note> "Tap, jazz, ballet, and Afro-Cuban dance instructor based in Las Vegas, Nevada. Dee Dee Lynn was known for her work as a performing arts educator and founder of Dee Dee Lynn’s School of Performing Arts, where she trained youth in a variety of dance styles and contributed to the cultural enrichment of the community."@en .
+<http://id.loc.gov/authorities/subjects/sh85035652> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://id.loc.gov/authorities/subjects/sh85035652> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Occupation> .
+<https://special.library.unlv.edu/taxonomy/term/17290> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://special.library.unlv.edu/taxonomy/term/17290> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://special.library.unlv.edu/taxonomy/term/17290> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hoggard, Mabel, 1905-1989"@en .
+<https://special.library.unlv.edu/taxonomy/term/17290> <http://www.w3.org/2004/02/skos/core#note> "Mabel Hoggard was the first licensed African-American educator in Nevada. Hoggard taught primarily first and second grade at various elementary schools throughout Clark County, Nevada from 1946 until her retirement in 1970. The schools she taught at included Westside Elementary, Matt Kelly Elementary, Highland Elementary, and C.V.T. Gilbert Elementary, all located in Las Vegas, Nevada."@en .
+<https://special.library.unlv.edu/taxonomy/term/17290> <http://schema.org/birthDate> "1905-03-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://special.library.unlv.edu/taxonomy/term/17290> <http://schema.org/deathDate> "1989-05-31"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://id.loc.gov/authorities/subjects/sh85041161> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://id.loc.gov/authorities/subjects/sh85041161> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Occupation> .
+<https://special.library.unlv.edu/taxonomy/term/17289> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://special.library.unlv.edu/taxonomy/term/17289> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Organization> .
+<https://sws.geonames.org/7174146/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://sws.geonames.org/7174146/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/AdministrativeArea> .
+<https://special.library.unlv.edu/taxonomy/term/27452> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://special.library.unlv.edu/taxonomy/term/27452> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Organization> .
+<https://special.library.unlv.edu/taxonomy/term/27783> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://special.library.unlv.edu/taxonomy/term/27783> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Organization> .
+<https://special.library.unlv.edu/taxonomy/term/27984> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://special.library.unlv.edu/taxonomy/term/27984> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Organization> .
+<https://special.library.unlv.edu/taxonomy/term/27889> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://special.library.unlv.edu/taxonomy/term/27889> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CollegeOrUniversity> .
+<https://special.library.unlv.edu/taxonomy/term/27890> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://special.library.unlv.edu/taxonomy/term/27890> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CollegeOrUniversity> .
+<https://special.library.unlv.edu/taxonomy/term/17289> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://special.library.unlv.edu/taxonomy/term/17289> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hoggard, J. David, 1914-2001"@en .
+<https://special.library.unlv.edu/taxonomy/term/17289> <http://www.w3.org/2004/02/skos/core#note> "Community leader and civil rights advocate in Las Vegas, Nevada. A World War II U.S. Air Force veteran and one of the city’s first African American police officers, Hoggard later served as president of the Las Vegas NAACP branch and led the Economic Opportunity Board for nearly three decades, expanding social services and programs for underserved communities."@en .
+<https://special.library.unlv.edu/taxonomy/term/17289> <http://schema.org/birthDate> "1914-11-25"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://special.library.unlv.edu/taxonomy/term/17289> <http://schema.org/deathDate> "2001"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://special.library.unlv.edu/taxonomy/term/6340> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://special.library.unlv.edu/taxonomy/term/6340> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Organization> .
+<https://sws.geonames.org/5099835/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://sws.geonames.org/5099835/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/AdministrativeArea> .
+<https://special.library.unlv.edu/taxonomy/term/13109> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://special.library.unlv.edu/taxonomy/term/13109> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Organization> .
+<http://id.loc.gov/authorities/subjects/sh85026387> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://id.loc.gov/authorities/subjects/sh85026387> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Occupation> .
+<https://special.library.unlv.edu/taxonomy/term/27879> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://special.library.unlv.edu/taxonomy/term/27879> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://special.library.unlv.edu/taxonomy/term/27879> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hoggard, David, Jr."@en .
+<https://special.library.unlv.edu/taxonomy/term/27879> <http://www.w3.org/2004/02/skos/core#note> "Educator and community leader in Las Vegas, Nevada. Born in 1934, Hoggard Jr. served as dean of multiple departments at the Community College of Southern Nevada (now CSN), where he also briefly acted as director and later as Night Dean until his death in 2009. He was active in civic affairs as a member of the Las Vegas NAACP, a Nevada delegate to the 2000 Democratic National Convention, and manager of the 2000 Clark County Census Bureau."@en .
+<https://special.library.unlv.edu/taxonomy/term/27879> <http://schema.org/birthDate> "1934-09-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://special.library.unlv.edu/taxonomy/term/27879> <http://schema.org/deathDate> "2009-03-20"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://special.library.unlv.edu/taxonomy/term/17792> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://special.library.unlv.edu/taxonomy/term/17792> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://special.library.unlv.edu/taxonomy/term/17792> <http://www.w3.org/2004/02/skos/core#prefLabel> "White, Claytee"@en .
+<https://special.library.unlv.edu/taxonomy/term/17792> <http://www.w3.org/2004/02/skos/core#note> "Claytee D. White is the inaugural director of the Oral History Research Center for the University of Nevada, Las Vegas Libraries."@en .
+<http://id.loc.gov/authorities/subjects/sh85061091> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://id.loc.gov/authorities/subjects/sh85061091> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Occupation> .
+<https://special.library.unlv.edu/taxonomy/term/13113> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://special.library.unlv.edu/taxonomy/term/13113> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Organization> .
+<https://special.library.unlv.edu/taxonomy/term/27994> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://special.library.unlv.edu/taxonomy/term/27994> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://special.library.unlv.edu/taxonomy/term/27994> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lampert, Cory"@en .
+<https://special.library.unlv.edu/taxonomy/term/27994> <http://www.w3.org/2004/02/skos/core#note> "American librarian"@en .
+<http://id.loc.gov/authorities/subjects/sh85076491> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://id.loc.gov/authorities/subjects/sh85076491> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Occupation> .
+<https://special.library.unlv.edu/taxonomy/term/10213> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://special.library.unlv.edu/taxonomy/term/10213> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Organization> .
+<https://special.library.unlv.edu/taxonomy/term/27996> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://special.library.unlv.edu/taxonomy/term/27996> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CollegeOrUniversity> .
+<https://special.library.unlv.edu/taxonomy/term/27995> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://special.library.unlv.edu/taxonomy/term/27995> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CollegeOrUniversity> .
+<https://special.library.unlv.edu/taxonomy/term/27993> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://special.library.unlv.edu/taxonomy/term/27993> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://special.library.unlv.edu/taxonomy/term/27993> <http://www.w3.org/2004/02/skos/core#prefLabel> "Melvin, Darnelle"@en .
+<https://special.library.unlv.edu/taxonomy/term/27993> <http://www.w3.org/2004/02/skos/core#note> "American information scientist and metadata librarian."@en .
+<https://special.library.unlv.edu/taxonomy/term/27998> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://special.library.unlv.edu/taxonomy/term/27998> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CollegeOrUniversity> .
+<https://special.library.unlv.edu/taxonomy/term/27997> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://special.library.unlv.edu/taxonomy/term/27997> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CollegeOrUniversity> .
+<http://id.loc.gov/authorities/subjects/sh85066156> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://id.loc.gov/authorities/subjects/sh85066156> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Occupation> .
+<https://special.library.unlv.edu/taxonomy/term/15811> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://special.library.unlv.edu/taxonomy/term/15811> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://special.library.unlv.edu/taxonomy/term/15811> <http://www.w3.org/2004/02/skos/core#prefLabel> "Clark, Donald, 1933-2017"@en .
+<https://special.library.unlv.edu/taxonomy/term/15811> <http://www.w3.org/2004/02/skos/core#note> "Civil rights leader and pastor in Las Vegas, Nevada. After relocating in 1952 following his Army service, Reverend Donald M. Clark became an assistant pastor and a key advocate for racial integration and social justice. As president of the Las Vegas NAACP branch in the 1960s and a member of the Economic Opportunity Board, he worked to advance equality in education and public life. In 1967, he chaired Operation Independence, a community initiative providing legal aid, child care, job training, and related services to support underserved populations."@en .
+<https://special.library.unlv.edu/taxonomy/term/15811> <http://schema.org/birthDate> "1933-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://special.library.unlv.edu/taxonomy/term/15811> <http://schema.org/deathDate> "2017-10-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://id.loc.gov/authorities/subjects/sh85026944> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://id.loc.gov/authorities/subjects/sh85026944> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Occupation> .
+<http://id.loc.gov/authorities/subjects/sh91006121> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://id.loc.gov/authorities/subjects/sh91006121> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Occupation> .
+<https://special.library.unlv.edu/taxonomy/term/7081> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://special.library.unlv.edu/taxonomy/term/7081> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://special.library.unlv.edu/taxonomy/term/7081> <http://www.w3.org/2004/02/skos/core#prefLabel> "McMillan, Marie E., 1926-2019"@en .
+<https://special.library.unlv.edu/taxonomy/term/7081> <http://www.w3.org/2004/02/skos/core#note> "American aviator."@en .
+<https://special.library.unlv.edu/taxonomy/term/7081> <http://schema.org/birthDate> "1926-08-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://special.library.unlv.edu/taxonomy/term/7081> <http://schema.org/deathDate> "2019-03-24"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://sws.geonames.org/7174241/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://sws.geonames.org/7174241/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/AdministrativeArea> .
+<http://id.loc.gov/authorities/subjects/sh85147424> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://id.loc.gov/authorities/subjects/sh85147424> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Occupation> .
+<https://special.library.unlv.edu/taxonomy/term/7080> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://special.library.unlv.edu/taxonomy/term/7080> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://special.library.unlv.edu/taxonomy/term/7080> <http://www.w3.org/2004/02/skos/core#prefLabel> "McMillan, James B., 1917-1999"@en .
+<https://special.library.unlv.edu/taxonomy/term/7080> <http://www.w3.org/2004/02/skos/core#note> "American dentist and civil rights activist (1917-1999)."@en .
+<https://special.library.unlv.edu/taxonomy/term/7080> <http://schema.org/birthDate> "1917-01-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://special.library.unlv.edu/taxonomy/term/7080> <http://schema.org/deathDate> "1999-03-20"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://special.library.unlv.edu/taxonomy/term/27999> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://special.library.unlv.edu/taxonomy/term/27999> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CollegeOrUniversity> .
+<https://sws.geonames.org/7317624/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://sws.geonames.org/7317624/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/AdministrativeArea> .
+<https://special.library.unlv.edu/taxonomy/term/28000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://special.library.unlv.edu/taxonomy/term/28000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CollegeOrUniversity> .
+<http://id.loc.gov/authorities/subjects/sh85036974> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://id.loc.gov/authorities/subjects/sh85036974> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Occupation> .
+<https://special.library.unlv.edu/taxonomy/term/15849> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://special.library.unlv.edu/taxonomy/term/15849> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://special.library.unlv.edu/taxonomy/term/15849> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ray, Clarence, 1900-1993"@en .
+<https://special.library.unlv.edu/taxonomy/term/15849> <http://www.w3.org/2004/02/skos/core#note> "Clarence Ray was born in California on February 8, 1900. He moved to Las Vegas, Nevada in the early 1930s and began a career in the gaming industry. Ray co-owned some of the first black-owned gaming establishments in Las Vegas and worked with a variety of organizations to promote worker's rights for black citizens. During construction of the Hoover Dam, Ray petitioned to guarantee employment for black workers. He actively encouraged casinos to open more job opportunities for black card dealers. Their efforts proved successful when casino owners agreed to a consent decree in 1971 that guaranteed 12% of all jobs in resorts and casinos to be filled with black employees. The city of Las Vegas named a park in Ray's honor for his contribution to the black community in Southern Nevada."@en .
+<https://special.library.unlv.edu/taxonomy/term/15849> <http://schema.org/birthDate> "1900-02-28"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://special.library.unlv.edu/taxonomy/term/15849> <http://schema.org/deathDate> "1993-12-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://special.library.unlv.edu/taxonomy/term/28069> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://special.library.unlv.edu/taxonomy/term/28069> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Organization> .
+<https://sws.geonames.org/11788310/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://sws.geonames.org/11788310/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/AdministrativeArea> .
+<http://id.loc.gov/authorities/subjects/sh88001477> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://id.loc.gov/authorities/subjects/sh88001477> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Occupation> .
+<http://id.loc.gov/authorities/subjects/sh85101610> <http://www.w3.org/2004/02/skos/core#prefLabel> "Physicians"@en .
+<http://id.loc.gov/authorities/subjects/sh85026385> <http://www.w3.org/2004/02/skos/core#prefLabel> "Civil rights workers"@en .
+<http://id.loc.gov/authorities/subjects/sh85101179> <http://www.w3.org/2004/02/skos/core#prefLabel> "Photographers"@en .
+<http://id.loc.gov/authorities/subjects/sh90003323> <http://www.w3.org/2004/02/skos/core#prefLabel> "Newspaper editors"@en .
+<http://id.loc.gov/authorities/subjects/sh85070788> <http://www.w3.org/2004/02/skos/core#prefLabel> "Journalists"@en .
+<http://id.loc.gov/authorities/subjects/sh85035655> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dancers"@en .
+<http://id.loc.gov/authorities/subjects/sh85075351> <http://www.w3.org/2004/02/skos/core#prefLabel> "Lawyers"@en .
+<http://id.loc.gov/authorities/subjects/sh85133594> <http://www.w3.org/2004/02/skos/core#prefLabel> "Television personalities"@en .
+<http://id.loc.gov/authorities/subjects/sh96010352> <http://www.w3.org/2004/02/skos/core#prefLabel> "Businesspeople"@en .
+<http://id.loc.gov/authorities/subjects/sh85062486> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hotelkeepers"@en .
+<http://id.loc.gov/authorities/subjects/sh85035652> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dance teachers"@en .
+<http://id.loc.gov/authorities/subjects/sh85041161> <http://www.w3.org/2004/02/skos/core#prefLabel> "Educators"@en .
+<http://id.loc.gov/authorities/subjects/sh85031469> <http://www.w3.org/2004/02/skos/core#prefLabel> "Consultants"@en .
+<http://id.loc.gov/authorities/subjects/sh85026387> <http://www.w3.org/2004/02/skos/core#prefLabel> "Civil service"@en .
+<http://id.loc.gov/authorities/subjects/sh88004175> <http://www.w3.org/2004/02/skos/core#prefLabel> "Civic leaders"@en .
+<http://id.loc.gov/authorities/subjects/sh2008001494> <http://www.w3.org/2004/02/skos/core#prefLabel> "Community activists"@en .
+<http://id.loc.gov/authorities/subjects/sh85053074> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://id.loc.gov/authorities/subjects/sh85053074> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Occupation> .
+<http://id.loc.gov/authorities/subjects/sh85053074> <http://www.w3.org/2004/02/skos/core#prefLabel> "Garden historians"@en .
+<http://id.loc.gov/authorities/subjects/sh85061091> <http://www.w3.org/2004/02/skos/core#prefLabel> "Historians"@en .
+<http://id.loc.gov/authorities/subjects/sh85076491> <http://www.w3.org/2004/02/skos/core#prefLabel> "Librarians"@en .
+<http://id.loc.gov/authorities/subjects/sh85066156> <http://www.w3.org/2004/02/skos/core#prefLabel> "Information scientists"@en .
+<http://id.loc.gov/authorities/subjects/sh85026944> <http://www.w3.org/2004/02/skos/core#prefLabel> "Clergy"@en .
+<http://id.loc.gov/authorities/subjects/sh91006121> <http://www.w3.org/2004/02/skos/core#prefLabel> "African American civil rights workers"@en .
+<http://id.loc.gov/authorities/subjects/sh85036974> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dentists"@en .
+<http://id.loc.gov/authorities/subjects/sh85147424> <http://www.w3.org/2004/02/skos/core#prefLabel> "Women air pilots"@en .
+<http://id.loc.gov/authorities/subjects/sh88001477> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gambling--Employees"@en .
+<https://special.library.unlv.edu/taxonomy/term/26372> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dartmouth College"@en .
+<https://special.library.unlv.edu/taxonomy/term/26372> <http://www.w3.org/2004/02/skos/core#note> "The Dartmouth College charter was confirmed on Dec. 18, 1769."@en .
+<https://special.library.unlv.edu/taxonomy/term/26371> <http://www.w3.org/2004/02/skos/core#prefLabel> "Howard University. School of Medicine"@en .
+<https://special.library.unlv.edu/taxonomy/term/26371> <http://www.w3.org/2004/02/skos/core#note> "In 1907 Dept. was renamed the School of Medicine."@en .
+<https://special.library.unlv.edu/taxonomy/term/27746> <http://www.w3.org/2004/02/skos/core#prefLabel> "Arkansas Agricultural, Mechanical, and Normal College"@en .
+<https://special.library.unlv.edu/taxonomy/term/27746> <http://www.w3.org/2004/02/skos/core#note> "Public historically black university."@en .
+<https://special.library.unlv.edu/taxonomy/term/26369> <http://www.w3.org/2004/02/skos/core#prefLabel> "University of California, Los Angeles"@en .
+<https://special.library.unlv.edu/taxonomy/term/26369> <http://www.w3.org/2004/02/skos/core#note> "The University of California, Los Angeles is a public land-grant research university in Los Angeles, California, United States."@en .
+<https://special.library.unlv.edu/taxonomy/term/26393> <http://www.w3.org/2004/02/skos/core#prefLabel> "College of the City of New York (1926-1961). City College"@en .
+<https://special.library.unlv.edu/taxonomy/term/26393> <http://www.w3.org/2004/02/skos/core#note> "Founded in 1847, City College was the first free public institution of higher education in the United States. It is the oldest of CUNY's 25 institutions of higher learning[5] and is considered its flagship institution."@en .
+<https://special.library.unlv.edu/taxonomy/term/27712> <http://www.w3.org/2004/02/skos/core#prefLabel> "Morehouse College (Atlanta, Ga.)"@en .
+<https://special.library.unlv.edu/taxonomy/term/27712> <http://www.w3.org/2004/02/skos/core#note> "Historically black men's liberal arts college in Atlanta, Georgia, United States."@en .
+<https://special.library.unlv.edu/taxonomy/term/27957> <http://www.w3.org/2004/02/skos/core#prefLabel> "Howard University. School of Business"@en .
+<https://special.library.unlv.edu/taxonomy/term/27957> <http://www.w3.org/2004/02/skos/core#note> "Business school of Howard University."@en .
+<https://special.library.unlv.edu/taxonomy/term/27958> <http://www.w3.org/2004/02/skos/core#prefLabel> "National University (San Diego, Calif.)"@en .
+<https://special.library.unlv.edu/taxonomy/term/27958> <http://www.w3.org/2004/02/skos/core#note> "Private university located in San Diego, California, United States."@en .
+<https://special.library.unlv.edu/taxonomy/term/27889> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bluefield State Teachers College"@en .
+<https://special.library.unlv.edu/taxonomy/term/27889> <http://www.w3.org/2004/02/skos/core#note> "Bluefield State University is a public historically black university (HBCU) in Bluefield, West Virginia. The university is a member-school of the Thurgood Marshall College Fund."@en .
+<https://special.library.unlv.edu/taxonomy/term/27890> <http://www.w3.org/2004/02/skos/core#prefLabel> "University of Chicago"@en .
+<https://special.library.unlv.edu/taxonomy/term/27890> <http://www.w3.org/2004/02/skos/core#note> "The University of Chicago is a private research university in Chicago, Illinois, United States."@en .
+<https://special.library.unlv.edu/taxonomy/term/27998> <http://www.w3.org/2004/02/skos/core#prefLabel> "San José State University"@en .
+<https://special.library.unlv.edu/taxonomy/term/27998> <http://www.w3.org/2004/02/skos/core#note> "Public university located in San Jose, California, United States."@en .
+<https://special.library.unlv.edu/taxonomy/term/27997> <http://www.w3.org/2004/02/skos/core#prefLabel> "San Francisco State University"@en .
+<https://special.library.unlv.edu/taxonomy/term/27997> <http://www.w3.org/2004/02/skos/core#note> "Public university located in San Francisco, California, United States."@en .
+<https://special.library.unlv.edu/taxonomy/term/27996> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sarah Lawrence College"@en .
+<https://special.library.unlv.edu/taxonomy/term/27996> <http://www.w3.org/2004/02/skos/core#note> "Private liberal arts college in the United States."@en .
+<https://special.library.unlv.edu/taxonomy/term/27995> <http://www.w3.org/2004/02/skos/core#prefLabel> "University of Wisconsin--Milwaukee"@en .
+<https://special.library.unlv.edu/taxonomy/term/27995> <http://www.w3.org/2004/02/skos/core#note> "Public university located in Milwaukee, Wisconsin, United States."@en .
+<https://special.library.unlv.edu/taxonomy/term/27999> <http://www.w3.org/2004/02/skos/core#prefLabel> "University of Detroit"@en .
+<https://special.library.unlv.edu/taxonomy/term/27999> <http://www.w3.org/2004/02/skos/core#note> "University in Detroit, Michigan."@en .
+<https://special.library.unlv.edu/taxonomy/term/28000> <http://www.w3.org/2004/02/skos/core#prefLabel> "Meharry Medical College. School of Dentistry"@en .
+<https://special.library.unlv.edu/taxonomy/term/28000> <http://www.w3.org/2004/02/skos/core#note> "Dental school in Nashville, Tennessee."@en .
+<https://special.library.unlv.edu/taxonomy/term/6340> <http://www.w3.org/2004/02/skos/core#prefLabel> "Las Vegas (Nev.). Metropolitan Police Department"@en .
+<https://special.library.unlv.edu/taxonomy/term/6340> <http://www.w3.org/2004/02/skos/core#note> "Municipal police in Las Vegas, Nevada."@en .
+<https://special.library.unlv.edu/taxonomy/term/13280> <http://www.w3.org/2004/02/skos/core#prefLabel> "Las Vegas voice"@en .
+<https://special.library.unlv.edu/taxonomy/term/13280> <http://www.w3.org/2004/02/skos/core#note> "African American newspaper published from 1963 to 1981 in Las Vegas, Nevada"@en .
+<https://special.library.unlv.edu/taxonomy/term/7416> <http://www.w3.org/2004/02/skos/core#prefLabel> "Moulin Rouge (Hotel-Casino : Las Vegas, Nev.)"@en .
+<https://special.library.unlv.edu/taxonomy/term/7416> <http://www.w3.org/2004/02/skos/core#note> "The Moulin Rouge Hotel was a hotel and casino located in West Las Vegas that was listed on the U.S. National Register of Historic Places in 1992. Although its peak operation lasted only six months in the second half of 1955, it was the first desegregated hotel casino and was popular with many of the Black entertainers of the time, who would entertain at the other hotels and casinos and stay at the Moulin Rouge. The hotel was named after the Paris nightclub, the Moulin Rouge."@en .
+<https://special.library.unlv.edu/taxonomy/term/8834> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sands Hotel & Casino (Las Vegas, Nev)"@en .
+<https://special.library.unlv.edu/taxonomy/term/8834> <http://www.w3.org/2004/02/skos/core#note> "Former hotel and casino on the Las Vegas Strip in Nevada, United States, that operated from 1952 to 1996."@en .
+<https://special.library.unlv.edu/taxonomy/term/25144> <http://www.w3.org/2004/02/skos/core#prefLabel> "Union Plaza Hotel and Casino"@en .
+<https://special.library.unlv.edu/taxonomy/term/25144> <http://www.w3.org/2004/02/skos/core#note> "Former casino hotel in Las Vegas, Nevada, United States."@en .
+<https://special.library.unlv.edu/taxonomy/term/6660> <http://www.w3.org/2004/02/skos/core#prefLabel> "Los Angeles Times (Firm)"@en .
+<https://special.library.unlv.edu/taxonomy/term/6660> <http://www.w3.org/2004/02/skos/core#note> "American newspaper publisher, established 1881."@en .
+<https://special.library.unlv.edu/taxonomy/term/7501> <http://www.w3.org/2004/02/skos/core#prefLabel> "National Association for the Advancement of Colored People"@en .
+<https://special.library.unlv.edu/taxonomy/term/7501> <http://www.w3.org/2004/02/skos/core#note> "The National Association for the Advancement of Colored People (NAACP) is a civil rights organization founded in 1909 to combat racial discrimination and advance the rights of African Americans. It was formed as an interracial endeavor by individuals like W.E.B. Du Bois to address racial injustice and promote equality. The NAACP played a crucial role in the civil rights movement, advocating for political, educational, social, and economic rights for Black Americans."@en .
+<https://special.library.unlv.edu/taxonomy/term/13109> <http://www.w3.org/2004/02/skos/core#prefLabel> "Economic Opportunity Board of Clark County (Nev.)"@en .
+<https://special.library.unlv.edu/taxonomy/term/13109> <http://www.w3.org/2004/02/skos/core#note> "Economic Opportunity Board of Clark County is a community action agency committed to introducing and implementing programs, resources, and advocacy which lead to self-sufficiency and economic empowerment for low-income individuals and families."@en .
+<https://special.library.unlv.edu/taxonomy/term/27452> <http://www.w3.org/2004/02/skos/core#prefLabel> "Matt Kelly Elementary School (Las Vegas, Nev.)"@en .
+<https://special.library.unlv.edu/taxonomy/term/27452> <http://www.w3.org/2004/02/skos/core#note> "Elementary school in Clark County, Nevada."@en .
+<https://special.library.unlv.edu/taxonomy/term/27783> <http://www.w3.org/2004/02/skos/core#prefLabel> "Highland Elementary School (Las Vegas, Nev.)"@en .
+<https://special.library.unlv.edu/taxonomy/term/27783> <http://www.w3.org/2004/02/skos/core#note> "Elementary school in Clark County, Nevada."@en .
+<https://special.library.unlv.edu/taxonomy/term/27984> <http://www.w3.org/2004/02/skos/core#prefLabel> "Historic Westside School (Las Vegas, Nev.)"@en .
+<https://special.library.unlv.edu/taxonomy/term/27984> <http://www.w3.org/2004/02/skos/core#note> "School in Clark County, Nevada."@en .
+<https://special.library.unlv.edu/taxonomy/term/13113> <http://www.w3.org/2004/02/skos/core#prefLabel> "University of Nevada, Las Vegas. Oral History Research Center"@en .
+<https://special.library.unlv.edu/taxonomy/term/13113> <http://www.w3.org/2004/02/skos/core#note> "The Oral History Research Center (OHRC) at the UNLV University Libraries records eye-witness accounts from members of the Las Vegas community to document the history of Las Vegas and Southern Nevada. These oral histories present in a very immediate and engaging way a piece of history through the actual voices of those who were there."@en .
+<https://special.library.unlv.edu/taxonomy/term/10213> <http://www.w3.org/2004/02/skos/core#prefLabel> "University of Nevada, Las Vegas"@en .
+<https://special.library.unlv.edu/taxonomy/term/10213> <http://www.w3.org/2004/02/skos/core#note> "The University of Nevada, Las Vegas (UNLV) is a public land-grant research university in Paradise, Nevada, United States."@en .
+<https://special.library.unlv.edu/taxonomy/term/28069> <http://www.w3.org/2004/02/skos/core#prefLabel> "Negro American League"@en .
+<https://special.library.unlv.edu/taxonomy/term/28069> <http://www.w3.org/2004/02/skos/core#note> "One of the several Negro Leagues that were established during the early twentieth century in the United States when professional baseball was segregated."@en .
+<https://sws.geonames.org/7170063/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://sws.geonames.org/7170063/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/AdministrativeArea> .
+<https://sws.geonames.org/7170063/> <http://www.w3.org/2004/02/skos/core#prefLabel> "City of Pine Bluff" .
+<https://sws.geonames.org/7170063/> <http://schema.org/latitude> "34.21195" .
+<https://sws.geonames.org/7170063/> <http://schema.org/longitude> "-92.01739" .
+<https://sws.geonames.org/3373568/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://sws.geonames.org/3373568/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/AdministrativeArea> .
+<https://sws.geonames.org/3373568/> <http://www.w3.org/2004/02/skos/core#prefLabel> "Saint Joseph" .
+<https://sws.geonames.org/3373568/> <http://schema.org/latitude> "13.2056" .
+<https://sws.geonames.org/3373568/> <http://schema.org/longitude> "-59.54418" .
+<https://sws.geonames.org/11788829/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://sws.geonames.org/11788829/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/AdministrativeArea> .
+<https://sws.geonames.org/11788829/> <http://www.w3.org/2004/02/skos/core#prefLabel> "City of Long Beach" .
+<https://sws.geonames.org/11788829/> <http://schema.org/latitude> "33.77498" .
+<https://sws.geonames.org/11788829/> <http://schema.org/longitude> "-118.15606" .
+<https://sws.geonames.org/7174241/> <http://www.w3.org/2004/02/skos/core#prefLabel> "City of Las Vegas" .
+<https://sws.geonames.org/7174241/> <http://schema.org/latitude> "36.22742" .
+<https://sws.geonames.org/7174241/> <http://schema.org/longitude> "-115.26265" .
+<https://sws.geonames.org/7209668/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://sws.geonames.org/7209668/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/AdministrativeArea> .
+<https://sws.geonames.org/7209668/> <http://www.w3.org/2004/02/skos/core#prefLabel> "Doolittle Community Center" .
+<https://sws.geonames.org/7209668/> <http://schema.org/latitude> "36.1952" .
+<https://sws.geonames.org/7209668/> <http://schema.org/longitude> "-115.1556" .
+<https://sws.geonames.org/4138106/> <http://www.w3.org/2004/02/skos/core#prefLabel> "District of Columbia" .
+<https://sws.geonames.org/4138106/> <http://schema.org/latitude> "38.91706" .
+<https://sws.geonames.org/4138106/> <http://schema.org/longitude> "-77.00025" .
+<https://sws.geonames.org/7170179/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://sws.geonames.org/7170179/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/AdministrativeArea> .
+<https://sws.geonames.org/7170179/> <http://www.w3.org/2004/02/skos/core#prefLabel> "City of Henderson" .
+<https://sws.geonames.org/7170179/> <http://schema.org/latitude> "37.84018" .
+<https://sws.geonames.org/7170179/> <http://schema.org/longitude> "-87.5789" .
+<https://sws.geonames.org/4990752/> <http://www.w3.org/2004/02/skos/core#prefLabel> "City of Detroit" .
+<https://sws.geonames.org/4990752/> <http://schema.org/latitude> "42.38341" .
+<https://sws.geonames.org/4990752/> <http://schema.org/longitude> "-83.10241" .
+<https://sws.geonames.org/7169459/> <http://www.w3.org/2004/02/skos/core#prefLabel> "City of Fordyce" .
+<https://sws.geonames.org/7169459/> <http://schema.org/latitude> "33.81812" .
+<https://sws.geonames.org/7169459/> <http://schema.org/longitude> "-92.41756" .
+<https://sws.geonames.org/7174146/> <http://www.w3.org/2004/02/skos/core#prefLabel> "City of Pueblo" .
+<https://sws.geonames.org/7174146/> <http://schema.org/latitude> "38.27047" .
+<https://sws.geonames.org/7174146/> <http://schema.org/longitude> "-104.61296" .
+<https://sws.geonames.org/5099835/> <http://www.w3.org/2004/02/skos/core#prefLabel> "City of Jersey City" .
+<https://sws.geonames.org/5099835/> <http://schema.org/latitude> "40.71162" .
+<https://sws.geonames.org/5099835/> <http://schema.org/longitude> "-74.06482" .
+<https://sws.geonames.org/7318056/> <http://www.w3.org/2004/02/skos/core#prefLabel> "City of Little Rock" .
+<https://sws.geonames.org/7318056/> <http://schema.org/latitude> "34.72539" .
+<https://sws.geonames.org/7318056/> <http://schema.org/longitude> "-92.35837" .
+<https://sws.geonames.org/7317624/> <http://www.w3.org/2004/02/skos/core#prefLabel> "City of Aberdeen" .
+<https://sws.geonames.org/7317624/> <http://schema.org/latitude> "33.82868" .
+<https://sws.geonames.org/7317624/> <http://schema.org/longitude> "-88.55388" .
+<https://sws.geonames.org/11788310/> <http://www.w3.org/2004/02/skos/core#prefLabel> "City of Fresno" .
+<https://sws.geonames.org/11788310/> <http://schema.org/latitude> "36.78333" .
+<https://sws.geonames.org/11788310/> <http://schema.org/longitude> "-119.79326" .
