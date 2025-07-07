@@ -10,9 +10,9 @@ title: ""
 
 <link rel="stylesheet" href="style.css">
 
-
-<iframe src="rdf_graph.html" style="width:100%; height:650px; border:none;"></iframe>
-
+<!---
+#<iframe src="rdf_graph.html" style="width:100%; height:650px; border:none;"></iframe>
+--->
 
 ## 2025 LD4 Confernece on Linked Data July 28-30, 2025
 ### Workshop Facilitated by Darnelle Melvin and Cory Lampert on Monday, July 28, 2025.
