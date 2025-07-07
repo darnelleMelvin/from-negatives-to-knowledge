@@ -10,9 +10,8 @@ title: ""
 
 <link rel="stylesheet" href="style.css">
 
-## RDF Graph Visualization
 
-<iframe src="rdf_graph.html" style="width:100%; height:650px; border:none;"></iframe>
+<iframe src="rdf_graph.html" style="width:50%; height:350px; border:none;"></iframe>
 
 
 ## 2025 LD4 Confernece on Linked Data July 28-30, 2025
