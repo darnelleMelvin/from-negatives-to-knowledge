@@ -21,9 +21,9 @@ Welcome to the workshop site! This workshop explores how a digitized photographi
 
 🗓 Start with the [Workshop Agenda](agenda.md)  
 🧠 Try the [Hands-On Activities](activities.md)  
-🧩 Learn about the [Classes used in the Knowledge Graph](classes.md)
+🧩 Learn about the [Classes used in the Knowledge Graph](classes.md)  
 📊 Explore our [SPARQL Queries](queries.md)  
-📚 Learn more [About the Project](about.md)   
+📚 Learn more [About the Project](about.md)  
 🔗 Essential [Resources Related to the Project](resources.md)
 
 
