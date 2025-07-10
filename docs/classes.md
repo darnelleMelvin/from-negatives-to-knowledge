@@ -40,9 +40,22 @@ These are the RDF classes selected to model entity types in the knowledge graph 
 
 - [`skos:Concept`](https://www.w3.org/2004/02/skos/core#Concept)
 
+
+## 🔹 SKOS Properties
+
+These SKOS properties are used to describe concepts and their relationships within the knowledge graph:
+
+- [`skos:prefLabel`](https://www.w3.org/TR/skos-reference/#prefLabel) – The preferred human-readable label for a concept  
+- [`skos:altLabel`](https://www.w3.org/TR/skos-reference/#altLabel) – Alternate labels or synonyms  
+- [`skos:note`](https://www.w3.org/TR/skos-reference/#note) – General notes or definitions  
+- [`skos:inScheme`](https://www.w3.org/TR/skos-reference/#inScheme) – Indicates which concept scheme a concept belongs to  
+- [`skos:closeMatch`](https://www.w3.org/TR/skos-reference/#closeMatch) – Denotes a concept that is closely related to another in a different vocabulary  
+- [`skos:exactMatch`](https://www.w3.org/TR/skos-reference/#exactMatch) – Indicates a concept that is an exact semantic equivalent in another scheme  
+
 ---
 
-These classes support semantically rich descriptions and enable connections across entities in the knowledge graph using linked data best practices.
+These classes and properties ensure semantic consistency and support rich, interoperable metadata across the knowledge graph.
+---
 
 <p style="text-align: right; margin-top: 2em;">
   <a href="https://special.library.unlv.edu/">
