@@ -10,33 +10,33 @@
 
 These are the RDF classes selected to model entity types in the knowledge graph as part of **Step 3: Select Classes and Properties** in the metadata creation workflow.
 
-## Schema.org Classes
+## <img width="90" height="180" alt="image" src="https://github.com/user-attachments/assets/db185c42-afa2-4aef-b3c3-021357daf4ae" /> Classes
 
-- [`BarOrPub`](https://schema.org/BarOrPub)  
-- [`Casino`](https://schema.org/Casino)  
-- [`Church`](https://schema.org/Church)  
-- [`CivicStructure`](https://schema.org/CivicStructure)  
-- [`CollegeOrUniversity`](https://schema.org/CollegeOrUniversity)  
-- [`DryCleaningOrLaundry`](https://schema.org/DryCleaningOrLaundry)  
-- [`EducationalOrganization`](https://schema.org/EducationalOrganization)  
-- [`ElectronicsStore`](https://schema.org/ElectronicsStore)  
-- [`ElementarySchool`](https://schema.org/ElementarySchool)  
-- [`GovernmentOrganization`](https://schema.org/GovernmentOrganization)  
-- [`Hotel`](https://schema.org/Hotel)  
-- [`LocalBusiness`](https://schema.org/LocalBusiness)  
-- [`MusicStore`](https://schema.org/MusicStore)  
-- [`NewsMediaOrganization`](https://schema.org/NewsMediaOrganization)  
-- [`NightClub`](https://schema.org/NightClub)  
-- [`Organization`](https://schema.org/Organization)  
-- [`Person`](https://schema.org/Person)  
-- [`ResearchOrganization`](https://schema.org/ResearchOrganization)  
-- [`Restaurant`](https://schema.org/Restaurant)  
-- [`School`](https://schema.org/School)  
-- [`ShoppingCenter`](https://schema.org/ShoppingCenter)  
-- [`SportsOrganization`](https://schema.org/SportsOrganization)  
-- [`WorkersUnion`](https://schema.org/WorkersUnion)
+- [`BarOrPub`](https://schema.org/BarOrPub) - A bar or pub  
+- [`Casino`](https://schema.org/Casino) - A casino  
+- [`Church`](https://schema.org/Church) - A church  
+- [`CivicStructure`](https://schema.org/CivicStructure) - A public structure, such as a town hall or concert hall  
+- [`CollegeOrUniversity`](https://schema.org/CollegeOrUniversity)  - A college, university, or other third-level educational institution  
+- [`DryCleaningOrLaundry`](https://schema.org/DryCleaningOrLaundry) - A dry-cleaning business  
+- [`EducationalOrganization`](https://schema.org/EducationalOrganization) - An educational organization  
+- [`ElectronicsStore`](https://schema.org/ElectronicsStore) - An electronics store  
+- [`ElementarySchool`](https://schema.org/ElementarySchool) - An elementary school  
+- [`GovernmentOrganization`](https://schema.org/GovernmentOrganization) - A governmental organization or agency  
+- [`Hotel`](https://schema.org/Hotel) - A hotel is an establishment that provides lodging paid on a short-term basis  
+- [`LocalBusiness`](https://schema.org/LocalBusiness) - A particular physical business or branch of an organization. Examples of LocalBusiness include a restaurant, a particular branch of a restaurant chain, a branch of a bank, a medical practice, a club, a bowling alley, etc.
+- [`MusicStore`](https://schema.org/MusicStore) - A music store  
+- [`NewsMediaOrganization`](https://schema.org/NewsMediaOrganization) - A News/Media organization such as a newspaper or TV station  
+- [`NightClub`](https://schema.org/NightClub) - A nightclub or discotheque
+- [`Organization`](https://schema.org/Organization) - An organization such as a school, NGO, corporation, club, etc.  
+- [`Person`](https://schema.org/Person) - A person (alive, dead, undead, or fictional)  
+- [`ResearchOrganization`](https://schema.org/ResearchOrganization) - A Research Organization (e.g. scientific institute, research company)  
+- [`Restaurant`](https://schema.org/Restaurant) - A restaurant  
+- [`School`](https://schema.org/School) - A school
+- [`ShoppingCenter`](https://schema.org/ShoppingCenter) - A shopping center or mall
+- [`SportsOrganization`](https://schema.org/SportsOrganization) - Represents the collection of all sports organizations, including sports teams, governing bodies, and sports associations  
+- [`WorkersUnion`](https://schema.org/WorkersUnion) - A Workers Union (also known as a Labor Union, Labour Union, or Trade Union) is an organization that promotes the interests of its worker members by collectively bargaining with management, organizing, and political lobbying
 
-## <img width="80" height="15" alt="image" src="https://github.com/user-attachments/assets/8421d8e1-e39e-4801-baaf-9b5a88fc294a" /> SKOS Class
+## <img width="80" height="15" alt="image" src="https://github.com/user-attachments/assets/8421d8e1-e39e-4801-baaf-9b5a88fc294a" /> Classes
 
 - [`skos:Concept`](https://www.w3.org/2004/02/skos/core#Concept) - All concepts are classed as a skos:Concept
 
