@@ -12,7 +12,7 @@
 Look at this sample image from the Clinton Wright Collection.  
 - Who can you identify?  
 - What places, events, or organizations are depicted?  
-[Open the image →](assets/images/photo-sample.jpg)
+[Open the image →](assets/images/ohr000452.tif)
 
 ## 2. Modeling Scenario
 You're given metadata for a local church picnic. How would you model:
