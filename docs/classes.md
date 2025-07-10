@@ -6,7 +6,7 @@
   </a>
 </p>
 
-# 🧩 Classes Used in the Knowledge Graph
+# 🧩 Classes and Properties Used in this Knowledge Graph
 
 These are the RDF classes selected to model entity types in the knowledge graph as part of **Step 3: Select Classes and Properties** in the metadata creation workflow.
 
@@ -36,12 +36,12 @@ These are the RDF classes selected to model entity types in the knowledge graph 
 - [`SportsOrganization`](https://schema.org/SportsOrganization)  
 - [`WorkersUnion`](https://schema.org/WorkersUnion)
 
-## 🔹 SKOS Class
+## <img width="80" height="15" alt="image" src="https://github.com/user-attachments/assets/8421d8e1-e39e-4801-baaf-9b5a88fc294a" /> SKOS Class
 
-- [`skos:Concept`](https://www.w3.org/2004/02/skos/core#Concept)
+- [`skos:Concept`](https://www.w3.org/2004/02/skos/core#Concept) - All concepts are classed as a skos:Concept
 
 
-## 🔹 SKOS Properties
+## 📎 SKOS Properties
 
 These SKOS properties are used to describe concepts and their relationships within the knowledge graph:
 
