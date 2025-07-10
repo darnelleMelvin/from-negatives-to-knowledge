@@ -10,7 +10,7 @@
 
 These are the RDF classes selected to model entity types in the knowledge graph as part of **Step 3: Select Classes and Properties** in the metadata creation workflow.
 
-## <img width="90" height="18" alt="image" src="https://github.com/user-attachments/assets/db185c42-afa2-4aef-b3c3-021357daf4ae" /> Classes
+## <img width="80" height="15" alt="image" src="https://github.com/user-attachments/assets/db185c42-afa2-4aef-b3c3-021357daf4ae" /> Classes
 
 - [`BarOrPub`](https://schema.org/BarOrPub) - A bar or pub  
 - [`Casino`](https://schema.org/Casino) - A casino  
