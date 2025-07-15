@@ -31,7 +31,7 @@ Look at this sample image from the Clinton Wright Collection.
   <p><strong>Caption:</strong> Transcribed from attachment on the back of the photo: "Sands Hotel before 1962 left to right Dr. James B. McMillan, Dr. Charles I. West, Sammy Davis, Jr., Mons. James B. Empey, Pastor of St. Joan of Arc Catholic Church. Presenting an "Award of Merit and honorary fellowship" to Sammy Davis, Jr. and Will Mastin Trio from the George Washington Carver Memorial Institute of Washington, D. C. for outstanding contributions to the arts, humanities, and better race relations."
 
     
-Sands Hotel and Casino: 3355 Las Vegas Boulevard South</p><p>What places, events, or organizations are depicted?</p>
+Sands Hotel and Casino: 3355 Las Vegas Boulevard South</p>
 </div>
 
 <script>
