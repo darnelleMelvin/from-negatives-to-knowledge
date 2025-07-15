@@ -50,6 +50,42 @@ Sands Hotel and Casino: 3355 Las Vegas Boulevard South</p><p>What places, events
 
 ---
 
+---
+
+## 🗂 Part 2: What metadata can you extract?
+
+Now that you've reviewed the caption, take a moment to think like a metadata creator. Based on what you've read, how might you model this information in a knowledge graph?
+
+**Prompt:** What structured metadata can you identify from the caption?
+
+Examples:
+
+- **schema:Person**
+  - `"Sammy Davis, Jr."`, `"Dr. Charles I. West"`, `"Dr. James B. McMillan"`, `"Mons. James B. Empey"`
+
+- **schema:Event**
+  - `"Award of Merit and honorary fellowship" ceremony at the Sands Hotel`
+
+- **schema:Organization**
+  - `"George Washington Carver Memorial Institute"`
+  - `"St. Joan of Arc Catholic Church"`
+
+- **schema:Place**
+  - `"Sands Hotel and Casino"` (`3355 Las Vegas Boulevard South`)
+
+- **schema:Role** or **schema:award**
+  - `"Outstanding contributions to the arts, humanities, and better race relations"`
+
+---
+
+**💡 Try this:**  
+Write out a few RDF triples (in Turtle or natural language) that describe this moment using what you know about Schema.org or SKOS.
+
+> _Bonus challenge:_ Can you find a Wikidata Q-ID for any of the people, places, or organizations listed?
+
+
+---
+
 ## 2. Modeling Scenario
 You're given metadata for a local church picnic. How would you model:
 - The event?
