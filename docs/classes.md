@@ -10,7 +10,7 @@
 
 These are the RDF classes selected to model entity types in the knowledge graph as part of **Step 3: Select Classes and Properties** in the metadata creation workflow.
 
-## <img width="80" height="20" alt="image" src="https://github.com/user-attachments/assets/db185c42-afa2-4aef-b3c3-021357daf4ae" /> Classes
+## <img width="80" height="21" alt="image" src="https://github.com/user-attachments/assets/db185c42-afa2-4aef-b3c3-021357daf4ae" /> Classes
 
 - [`BarOrPub`](https://schema.org/BarOrPub) - A bar or pub  
 - [`Casino`](https://schema.org/Casino) - A casino  
@@ -38,10 +38,10 @@ These are the RDF classes selected to model entity types in the knowledge graph 
 
 ## <img width="80" height="15" alt="image" src="https://github.com/user-attachments/assets/8421d8e1-e39e-4801-baaf-9b5a88fc294a" /> Classes
 
-- [`skos:Concept`](https://www.w3.org/2004/02/skos/core#Concept) - All concepts are classed as a skos:Concept
+- [`skos:Concept`](https://www.w3.org/2004/02/skos/core#Concept) - All entities are classed as a skos:Concept
 
 
-## 📎 SKOS Properties
+## <img width="80" height="15" alt="image" src="https://github.com/user-attachments/assets/21666ce4-3298-4dc7-9282-6adacac9ee2d" /> Properties
 
 These SKOS properties are used to describe concepts and their relationships within the knowledge graph:
 
