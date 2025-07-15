@@ -18,19 +18,39 @@ Look at this sample image from the Clinton Wright Collection.
 </div>
 
 <div style="text-align: center; margin-bottom: 2em;">
-  <button onclick="document.getElementById('captionBox').style.display='block'; this.style.display='none';" style="padding: 10px 20px; font-size: 1em; background-color: #810100; color: white; border: none; border-radius: 5px; cursor: pointer;">
+  <button id="showButton" onclick="showCaption()" style="padding: 10px 20px; font-size: 1em; background-color: #810100; color: white; border: none; border-radius: 5px; cursor: pointer;">
     Show Caption
+  </button>
+
+  <button id="hideButton" onclick="hideCaption()" style="display: none; padding: 10px 20px; font-size: 1em; background-color: #555; color: white; border: none; border-radius: 5px; cursor: pointer;">
+    Hide Caption
   </button>
 </div>
 
 <div id="captionBox" style="display: none; text-align: center; background: #f9f9f9; padding: 1em; border: 1px solid #ccc; border-radius: 8px; max-width: 80%; margin: auto;">
   <p><strong>Caption:</strong> Transcribed from attachment on the back of the photo: "Sands Hotel before 1962 left to right Dr. James B. McMillan, Dr. Charles I. West, Sammy Davis, Jr., Mons. James B. Empey, Pastor of St. Joan of Arc Catholic Church. Presenting an "Award of Merit and honorary fellowship" to Sammy Davis, Jr. and Will Maston trio from the George Washington Carver Memorial Institute of Washington, D. D. for outstanding contributions to the arts, humanities, and better race relations."
-  </br></br>Sands Hotel and Casino: 3355 Las Vegas Boulevard South
+
+    
+Sands Hotel and Casino: 3355 Las Vegas Boulevard South
 
 </p>
 </div>
 
+<script>
+  function showCaption() {
+    document.getElementById('captionBox').style.display = 'block';
+    document.getElementById('showButton').style.display = 'none';
+    document.getElementById('hideButton').style.display = 'inline-block';
+  }
 
+  function hideCaption() {
+    document.getElementById('captionBox').style.display = 'none';
+    document.getElementById('showButton').style.display = 'inline-block';
+    document.getElementById('hideButton').style.display = 'none';
+  }
+</script>   
+
+---
 
 
 
