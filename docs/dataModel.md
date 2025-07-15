@@ -12,6 +12,41 @@ This page provides an overview of how entities, relationships, and vocabulary te
 
 ---
 
+## 🧾 Property Guidelines
+
+The following tables outline the **required** and **recommended** properties used when modeling entities in this project:
+
+<table style="width:100%; border-collapse: collapse; margin-top: 1em;">
+  <tr>
+    <th style="width:50%; text-align: left; border-bottom: 2px solid #ccc;">Required Properties</th>
+    <th style="width:50%; text-align: left; border-bottom: 2px solid #ccc;">Recommended Properties</th>
+  </tr>
+  <tr>
+    <td><code>schema:name</code></td>
+    <td><code>rdfs:seeAlso</code></td>
+  </tr>
+  <tr>
+    <td><code>skos:prefLabel</code></td>
+    <td><code>skos:closeMatch</code></td>
+  </tr>
+  <tr>
+    <td><code>rdf:type skos:Concept</code></td>
+    <td><code>skos:exactMatch</code></td>
+  </tr>
+  <tr>
+    <td><code>rdf:type [schema class]</code></td>
+    <td><code>skos:altLabel</code></td>
+  </tr>
+  <tr>
+    <td><code>skos:note</code></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><code>skos:inScheme unl:</code></td>
+    <td></td>
+  </tr>
+</table>
+
 ## 🖼️ Visualizing Modeling Decisions
 
 Below are conceptual diagrams showing how key entity types are modeled and linked to external vocabularies:
@@ -43,6 +78,7 @@ This diagram models various types of organizations—such as schools, churches, 
 </p>
 
 This conceptual graphic shows how one `unl:` node is connected to another `unl:` node using semantic relationships drawn from vocabularies such as `agrelon:` and `schema:`. These links capture real-world relationships like affiliation, employment, or organizational roles within the graph.
+
 
 ---
 
