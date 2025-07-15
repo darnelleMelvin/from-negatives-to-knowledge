@@ -20,11 +20,11 @@ title: ""
 Welcome to the workshop site! This workshop explores how a digitized photographic collection documenting Las Vegas’s Historic Westside was transformed into a knowledge graph using linked data principles.
 
 🗓 Start with the [Workshop Agenda](agenda.md)  
-🧠 Try the [Hands-On Activities](activities.md)  
-<img width="20" height="20" alt="image" src="https://github.com/user-attachments/assets/216a1441-1991-4dbd-91be-f19eecc51d2e" /> Learn about our [Modeling Decisions](dataModel.md)  
-🧩 Learn about the [Classes used in the Knowledge Graph](classes.md)  
-📊 Explore our [SPARQL Queries](queries.md)  
 📚 Learn more [About the Project](about.md)  
+<img width="20" height="20" alt="image" src="https://github.com/user-attachments/assets/216a1441-1991-4dbd-91be-f19eecc51d2e" /> See our [Modeling Decisions](dataModel.md)  
+🧩 Learn about the [Classes and properties used in our Knowledge Graph](classes.md)  
+🧠 Try the [Hands-On Activities](activities.md)  
+📊 Explore some [SPARQL Queries](queries.md)  
 🔗 Essential [Resources Related to the Project](resources.md)
 
 
