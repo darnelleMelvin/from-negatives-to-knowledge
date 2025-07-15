@@ -55,17 +55,17 @@ In RDF data modeling, **namespace declarations** define shorthand prefixes for l
 
 The following namespaces are used in this project:
 
-```turtle  
-@prefix schema:  <http://schema.org/> .  
-@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .  
-@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .  
-@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .  
-@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .  
-@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .  
-@prefix gn:      <http://www.geonames.org/ontology#> .  
-@prefix lcsh:    <http://id.loc.gov/authorities/subjects/> .  
-@prefix lcnaf:   <http://id.loc.gov/authorities/names/> .  
-@prefix unl:     <https://special.library.unlv.edu/taxonomy/term/> .  
+ 
+@prefix schema:  <http://schema.org/>   
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#>   
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>   
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#>   
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#>   
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#>   
+@prefix gn:      <http://www.geonames.org/ontology#>   
+@prefix lcsh:    <http://id.loc.gov/authorities/subjects/>   
+@prefix naf:     <http://id.loc.gov/authorities/names/>   
+@prefix unl:     <https://special.library.unlv.edu/taxonomy/term/>   
 
 ---
 
@@ -79,7 +79,7 @@ Below are conceptual diagrams showing how key entity types are modeled and linke
   <img src="assets/images/dataModel_schemaPerson.jpg" alt="Data model for schema:Person" style="max-width: 100%; border: 1px solid #ccc; border-radius: 8px;">
 </p>
 
-A diagram showing how a `schema:Person` is modeled using properties like `birthDate`, `occupation`, and connections to external sources.
+A diagram showing how a `schema:Person` is modeled using properties like `birthDate`, `birthPlace`, `deathPlace`, `hasOccupation`, and connections to external authority files using `skos:closeMatch` and `skos:exactMatch`.
 
 ---
 
