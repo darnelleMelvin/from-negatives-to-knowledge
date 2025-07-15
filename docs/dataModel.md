@@ -55,7 +55,7 @@ In RDF data modeling, **namespace declarations** define shorthand prefixes for l
 
 The following namespaces are used in this project:
 
-```turtle
+```turtle  
 @prefix schema:  <http://schema.org/> .  
 @prefix skos:    <http://www.w3.org/2004/02/skos/core#> .  
 @prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .  
