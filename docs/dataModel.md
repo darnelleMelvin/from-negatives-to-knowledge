@@ -47,6 +47,28 @@ The following tables outline the **required** and **recommended** properties use
   </tr>
 </table>
 
+---
+
+## 🧭 Namespace Declaration
+
+In RDF data modeling, **namespace declarations** define shorthand prefixes for longer URIs. These prefixes allow for clean, readable references to commonly used vocabularies across your RDF data and SPARQL queries.
+
+The following namespaces are used in this project:
+
+```turtle
+@prefix schema:  <http://schema.org/> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix gn:      <http://www.geonames.org/ontology#> .
+@prefix lcsh:    <http://id.loc.gov/authorities/subjects/> .
+@prefix lcnaf:   <http://id.loc.gov/authorities/names/> .
+@prefix unl:     <https://special.library.unlv.edu/taxonomy/term/> .
+
+---
+
 ## 🖼️ Visualizing Modeling Decisions
 
 Below are conceptual diagrams showing how key entity types are modeled and linked to external vocabularies:
