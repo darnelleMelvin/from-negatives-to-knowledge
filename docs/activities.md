@@ -50,13 +50,13 @@ Sands Hotel and Casino: 3355 Las Vegas Boulevard South</p>
 
 ---
 
-## 🗂 Part 2: What metadata can you extract?
+## 🗂 Part 2: Mapping Concepts to Classes
 
-Now that you've reviewed the caption, take a moment to think like a metadata creator. Based on what you've read, how might you model this information in a knowledge graph?
+Now that you’ve reviewed the caption, let’s examine how key entities in the photo can be represented using [Schema.org classes](https://schema.org/docs/full.html).
 
-**Prompt:** What structured metadata can you identify from the caption?
+**Prompt:** Read the caption and explore how each of the following Schema.org classes applies to people, groups, organizations, and places mentioned.
 
-Click each category below to reveal the example values:
+Click each class below to reveal the corresponding values:
 
 <details>
 <summary><strong>schema:Person</strong></summary>
