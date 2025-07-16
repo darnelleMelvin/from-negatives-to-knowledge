@@ -95,6 +95,13 @@ Click each class below to reveal the corresponding values:
 <details>
 <summary><strong>schema:Hotel</strong> or <strong>schema:Casino</strong></summary>
 
+- Sands Hotel and Casino
+
+</details>
+
+<details>
+<summary><strong>schema:Place</strong></summary>
+
 - Sands Hotel and Casino (3355 Las Vegas Boulevard South)  
 
 </details>
@@ -104,7 +111,7 @@ Click each class below to reveal the corresponding values:
 **💡 Try this:**  
 Write out a few RDF triples (in Turtle or natural language) that describe this moment using what you know about Schema.org or SKOS.
 
-> _Bonus challenge:_ Can you find a Wikidata Q-ID for any of the people, places, or organizations listed?
+> _Bonus challenge:_ Can you find a Wikidata Q-ID or a uri from a name authority file for any of the people, places, or organizations listed?
 
 
 
