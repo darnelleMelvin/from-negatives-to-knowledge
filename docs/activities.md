@@ -72,7 +72,7 @@ Click each class below to reveal the corresponding values:
 </details>
 
 <details>
-<summary><strong>schema:MusicGroup</strong></summary>
+<summary><strong>schema:PerformingGroup</strong></summary>
 
 - Will Mastin Trio  
 
