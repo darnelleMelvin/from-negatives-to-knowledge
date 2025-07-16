@@ -61,10 +61,14 @@ Click each category below to reveal the example values:
 <details>
 <summary><strong>schema:Person</strong></summary>
 
-- Dr. James B. McMillan </br>  
-- Dr. Charles I. West  </br>
-- Sammy Davis, Jr.  </br>
-- Mons. James B. Empey  </br>
+- Dr. James B. McMillan
+  
+- Dr. Charles I. West
+  
+- Sammy Davis, Jr.
+  
+- Mons. James B. Empey
+  
 - Will Mastin  
 
 </details>
