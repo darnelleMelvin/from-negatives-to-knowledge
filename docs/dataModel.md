@@ -34,7 +34,7 @@ The following tables outline the **required** and **recommended** properties use
     <td><code>skos:exactMatch</code></td>
   </tr>
   <tr>
-    <td><code>rdf:type [schema class]</code></td>
+    <td><code>rdf:type [Select a schema class or subClass]</code></td>
     <td><code>skos:altLabel</code></td>
   </tr>
   <tr>
@@ -56,16 +56,20 @@ In RDF data modeling, **namespace declarations** define shorthand prefixes for l
 The following namespaces are used in this project:
 
  
-@prefix schema:  <http://schema.org/>   
-@prefix skos:    <http://www.w3.org/2004/02/skos/core#>   
-@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>   
-@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#>   
-@prefix xsd:     <http://www.w3.org/2001/XMLSchema#>   
 @prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#>   
+@prefix dct:     <http://purl.org/dc/terms/>  
 @prefix gn:      <http://www.geonames.org/ontology#>   
 @prefix lcsh:    <http://id.loc.gov/authorities/subjects/>   
 @prefix naf:     <http://id.loc.gov/authorities/names/>   
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>   
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#>   
+@prefix schema:  <http://schema.org/>   
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#>   
 @prefix unl:     <https://special.library.unlv.edu/taxonomy/term/>   
+@prefix wd:      <https://www.wikidata.org/entity/>  
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#>   
+
+</br>For a full list of namespace declarations see my library Linked Data [Namespaces Repo](https://github.com/darnelleMelvin/libraryLinkedData_namespaces).
 
 ---
 
