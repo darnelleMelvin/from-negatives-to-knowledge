@@ -50,31 +50,57 @@ Sands Hotel and Casino: 3355 Las Vegas Boulevard South</p>
 
 ---
 
----
-
 ## 🗂 Part 2: What metadata can you extract?
 
 Now that you've reviewed the caption, take a moment to think like a metadata creator. Based on what you've read, how might you model this information in a knowledge graph?
 
 **Prompt:** What structured metadata can you identify from the caption?
 
-Examples:
+Click each category below to reveal the example values:
 
-- **schema:Person**
-  - `"Sammy Davis, Jr."`, `"Dr. Charles I. West"`, `"Dr. James B. McMillan"`, `"Mons. James B. Empey"`
+<details>
+<summary><strong>schema:Person</strong></summary>
 
-- **schema:Event**
-  - `"Award of Merit and honorary fellowship" ceremony at the Sands Hotel`
+- Dr. James B. McMillan  
+- Dr. Charles I. West  
+- Sammy Davis, Jr.  
+- Mons. James B. Empey  
+- Will Mastin  
 
-- **schema:Organization**
-  - `"George Washington Carver Memorial Institute"`
-  - `"St. Joan of Arc Catholic Church"`
+</details>
 
-- **schema:Place**
-  - `"Sands Hotel and Casino"` (`3355 Las Vegas Boulevard South`)
+<details>
+<summary><strong>schema:Event</strong></summary>
 
-- **schema:Role** or **schema:award**
-  - `"Outstanding contributions to the arts, humanities, and better race relations"`
+- Award of Merit and honorary fellowship presentation  
+- Event recognizing contributions to the arts, humanities, and race relations  
+
+</details>
+
+<details>
+<summary><strong>schema:Organization</strong></summary>
+
+- George Washington Carver Memorial Institute  
+- St. Joan of Arc Catholic Church  
+
+</details>
+
+<details>
+<summary><strong>schema:Place</strong></summary>
+
+- Sands Hotel and Casino  
+- 3355 Las Vegas Boulevard South  
+
+</details>
+
+<details>
+<summary><strong>schema:Award / schema:Role</strong></summary>
+
+- Outstanding contributions to the arts, humanities, and better race relations  
+- Honorary fellowship  
+- Award of Merit  
+
+</details>
 
 ---
 
@@ -82,6 +108,7 @@ Examples:
 Write out a few RDF triples (in Turtle or natural language) that describe this moment using what you know about Schema.org or SKOS.
 
 > _Bonus challenge:_ Can you find a Wikidata Q-ID for any of the people, places, or organizations listed?
+
 
 
 ---
