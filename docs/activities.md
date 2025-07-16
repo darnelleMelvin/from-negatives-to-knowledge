@@ -69,15 +69,12 @@ Click each category below to reveal the example values:
   
 - Mons. James B. Empey
   
-- Will Mastin  
-
 </details>
 
 <details>
-<summary><strong>schema:Event</strong></summary>
+<summary><strong>schema:MusicGroup</strong></summary>
 
-- Award of Merit and honorary fellowship presentation  
-- Event recognizing contributions to the arts, humanities, and race relations  
+- Will Mastin Trio  
 
 </details>
 
@@ -85,24 +82,20 @@ Click each category below to reveal the example values:
 <summary><strong>schema:Organization</strong></summary>
 
 - George Washington Carver Memorial Institute  
+
+</details>
+
+<details>
+<summary><strong>schema:CatholicChurch</strong></summary>
+
 - St. Joan of Arc Catholic Church  
 
 </details>
 
 <details>
-<summary><strong>schema:Place</strong></summary>
+<summary><strong>schema:Hotel</strong> or <strong>schema:Casino</strong></summary>
 
-- Sands Hotel and Casino  
-- 3355 Las Vegas Boulevard South  
-
-</details>
-
-<details>
-<summary><strong>schema:Award / schema:Role</strong></summary>
-
-- Outstanding contributions to the arts, humanities, and better race relations  
-- Honorary fellowship  
-- Award of Merit  
+- Sands Hotel and Casino (3355 Las Vegas Boulevard South)  
 
 </details>
 
