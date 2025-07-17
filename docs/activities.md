@@ -179,6 +179,13 @@ Using the example URIs and classes below, write RDF statements to describe the e
 | St. Joan of Arc Catholic Church             | https://special.library.unlv.edu/taxonomy/term/28100  | `schema:CatholicChurch`    |
 | Sands Hotel & Casino                        | https://special.library.unlv.edu/taxonomy/term/11258  | `schema:Place`             |
 
+<textarea rows="10" style="width:100%; font-family: monospace;">
+@prefix schema: <http://schema.org/> .
+@prefix ex: <http://example.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+  
+
+</textarea>
 
 **💡 Try This:**
 Use the following entities to write your own RDF triples:
@@ -188,6 +195,14 @@ Use the following entities to write your own RDF triples:
 `unl:17776` Clinton Wright  
 
 `unl:27746` Arkansas Agricultural, Mechanical, and Normal College  
+
+<textarea rows="10" style="width:100%; font-family: monospace;">
+@prefix schema: <http://schema.org/> .
+@prefix ex: <http://example.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+  
+
+</textarea>
 
 **Focus on:**
 
