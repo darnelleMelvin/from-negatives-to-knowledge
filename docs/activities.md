@@ -195,11 +195,11 @@ Using the example URIs and classes below, write RDF statements to describe the e
 **💡 Try This:**
 Use the following entities to write your own RDF triples:
 
-`unl:13280` Las Vegas voice  
+<a href="https://special.library.unlv.edu/taxonomy/term/13280">`unl:13280`</a> Las Vegas voice  
 
-`unl:17776` Clinton Wright  
+<a href="https://special.library.unlv.edu/taxonomy/term/17776">`unl:17776`</a> Clinton Wright  
 
-`unl:27746` Arkansas Agricultural, Mechanical, and Normal College  
+<a href="https://special.library.unlv.edu/taxonomy/term/27746">`unl:27746`</a> Arkansas Agricultural, Mechanical, and Normal College  
 
 <textarea rows="10" style="width:100%; font-family: monospace;">
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
