@@ -105,13 +105,12 @@ Click each class below to reveal the corresponding values:
 Write out a few RDF triples (in Turtle or natural language) that describe this moment using what you know about Schema.org or SKOS.
 
 <textarea rows="10" style="width:100%; font-family: monospace;">
-# Example:
 @prefix schema: <http://schema.org/> .
 @prefix ex: <http://example.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
   
-# ex:stJoanOfArcCathChurch a [SELECT a Schema Class or Sub-class] ;
-#     schema:name "St. Joan of Arc Catholic Church"@en ;
+ex:stJoanOfArcCathChurch a [SELECT a Schema Class or Sub-class] ;
+    schema:name "St. Joan of Arc Catholic Church"@en ;
 
  .
 </textarea>
