@@ -72,29 +72,33 @@ Click each class below to reveal the corresponding values:
 <details>
 <summary><strong>schema:PerformingGroup</strong></summary>
 
-- Will Mastin Trio  
-
+<ul>
+  <li>Will Mastin Trio</li>
+</ul>
 </details>
 
 <details>
 <summary><strong>schema:Organization</strong></summary>
 
-- George Washington Carver Memorial Institute  
-
+<ul>
+  <li>George Washington Carver Memorial Institute</li>
+</ul>
 </details>
 
 <details>
 <summary><strong>schema:CatholicChurch</strong></summary>
 
-- St. Joan of Arc Catholic Church  
-
+<ul>
+  <li>St. Joan of Arc Catholic Church</li>
+</ul>
 </details>
 
 <details>
 <summary><strong>schema:Place</strong></summary>
 
-- Sands Hotel and Casino (3355 Las Vegas Boulevard South)  
-
+<ul>
+  <li>Sands Hotel and Casino (3355 Las Vegas Boulevard South)</li>
+</ul>
 </details>
 
 ---
