@@ -8,7 +8,7 @@
 
 # 🧠 Hands-On Activities
 
-## 1. Entity Annotation
+## Activity 1. Entity Annotation
 Look at this sample image from the Marie and James B. McMillan Photograph Collection (PH-00334).  
 
 ## 👀 Who can you identify?
@@ -125,7 +125,7 @@ ex:stJoanOfArcCathChurch a [SELECT a Schema Class] ;
 
 ---
 
-## 2. Modeling Scenario and Writing RDF
+## Activity 2. Modeling Scenario and Writing RDF
 Understanding how to express structured metadata in RDF is key to building your knowledge graph. Below is an example using real entities from the project.
 
 ### 📄 RDF Triple Structure in Turtle Syntax
@@ -224,7 +224,7 @@ Use the following entities to write your own RDF triples:
 
 --- 
 
-## 3. SPARQL Challenge
+## Activity 3. SPARQL Challenge
 Use our [example dataset](queries.md) and try this:
 ```sparql   
 SELECT ?person ?relation ?relatedPerson
