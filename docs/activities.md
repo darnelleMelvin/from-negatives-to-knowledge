@@ -106,10 +106,14 @@ Write out a few RDF triples (in Turtle or natural language) that describe this m
 
 <textarea rows="10" style="width:100%; font-family: monospace;">
 # Example:
-# @prefix schema: <http://schema.org/> .
-# <http://example.org/west> a schema:Person ;
-#     schema:name "Dr. Charles I. West" ;
-#     schema:birthDate "1908-09-27"^^xsd:date .
+@prefix schema: <http://schema.org/> .
+@prefix ex: <http://example.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+  
+# ex:stJoanOfArcCathChurch a [SELECT a Schema Class or Sub-class] ;
+#     schema:name "St. Joan of Arc Catholic Church"@en ;
+
+ .
 </textarea>
 
 > _Bonus challenge:_ Can you find a Wikidata Q-ID or a uri from a name authority file for any of the people, places, or organizations listed?
