@@ -93,13 +93,6 @@ Click each class below to reveal the corresponding values:
 </details>
 
 <details>
-<summary><strong>schema:Hotel</strong> or <strong>schema:Casino</strong></summary>
-
-- Sands Hotel and Casino
-
-</details>
-
-<details>
 <summary><strong>schema:Place</strong></summary>
 
 - Sands Hotel and Casino (3355 Las Vegas Boulevard South)  
