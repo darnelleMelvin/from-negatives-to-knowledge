@@ -33,7 +33,7 @@ Look at this sample image from the Marie and James B. McMillan Photograph Collec
     
 Sands Hotel and Casino: 3355 Las Vegas Boulevard South</p> 
 
-<p><strong>Citation</strong>: ohr000452. Marie and James B. McMillan Photograph Collection, 1900-1994. PH-00334. Special Collections and Archives, University Libraries, University of Nevada, Las Vegas. Las Vegas, Nevada. http://n2t.net/ark:/62930/d1959g30x</p>
+<p><strong>Citation</strong>: ohr000452. Marie and James B. McMillan Photograph Collection, 1900-1994. PH-00334. Special Collections and Archives, University Libraries, University of Nevada, Las Vegas. Las Vegas, Nevada. <a href="http://n2t.net/ark:/62930/d1959g30x">http://n2t.net/ark:/62930/d1959g30x</a></p>
 </div>
 
 <script>
