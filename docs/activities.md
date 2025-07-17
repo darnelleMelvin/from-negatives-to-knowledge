@@ -190,7 +190,7 @@ Use the following entities to write your own RDF triples:
 
 **Focus on:**
 
-* Assigning the correct class using a
+* Assigning the correct class using `a` (short for `rdf:type`)
 
 * Using `skos:prefLabel` and `schema:name` for the labels
 
