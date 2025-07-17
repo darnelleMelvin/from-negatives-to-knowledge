@@ -214,13 +214,13 @@ Use the following entities to write your own RDF triples:
 
 * Assigning the correct class using `a` (short for `rdf:type`)
 
-* Using `skos:prefLabel` and `schema:name` for the labels
+* Using <a href="https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel">`skos:prefLabel`</a> and <a href="https://schema.org/name">`schema:name`</a> for the labels
 
-* Using `skos:note` for a description
+* Using <a href="https://www.w3.org/2009/08/skos-reference/skos.html#note">`skos:note`</a> for a description
 
-* Describing relationships using properties like `schema:memberOf`, `schema:member`, `schema:alumniOf`, `schema:alumni`,  or `schema:affiliation`
+* Describing relationships using properties like <a href="https://schema.org/memberOf">`schema:memberOf`</a>, <a href="https://schema.org/member">`schema:member`</a>, <a href="https://schema.org/alumniOf">`schema:alumniOf`</a>, <a href="https://schema.org/alumni">`schema:alumni`</a>,  or <a href="https://schema.org/affiliation">`schema:affiliation`</a>
 
-* Linking entities to external name authority files via `skos:closeMatch` or `skos:exactMatch` 
+* Linking entities to external name authority files via <a href="https://www.w3.org/2009/08/skos-reference/skos.html#closeMatch">`skos:closeMatch`</a> or <a href="https://www.w3.org/2009/08/skos-reference/skos.html#exactMatch">`skos:exactMatch` 
 
 --- 
 
