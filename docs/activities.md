@@ -212,7 +212,7 @@ Use the following entities to write your own RDF triples:
 
 **Focus on:**
 
-* Assigning the correct class using `a` (short for `rdf:type`)
+* Assigning the correct class using `a` (short for <a href="https://www.w3.org/TR/rdf-schema/#ch_type">`rdf:type`</a>)
 
 * Using <a href="https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel">`skos:prefLabel`</a> and <a href="https://schema.org/name">`schema:name`</a> for the labels
 
