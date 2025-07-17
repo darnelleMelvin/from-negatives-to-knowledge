@@ -175,7 +175,7 @@ Using the example URIs and classes below, write RDF statements to describe the e
 
 ### Building on Classes from Activity 1
 
-| Entity                                      | URI                                                   | Suggested Class                                                  |
+| Entity                                      | URI                                                   | Class (click on Class to explore their properties)                                                                                           |
 | ------------------------------------------- | -----------------------------------------------------------------------------------------------------------------------  | ------------------------------------------------------------------------- |
 | Sammy Davis, Jr.                            | <a href="https://special.library.unlv.edu/taxonomy/term/3454">https://special.library.unlv.edu/taxonomy/term/3454</a>    | <a href="https://schema.org/Person">`schema:Person`</a>                   |
 | Will Mastin Trio                            | <a href="https://special.library.unlv.edu/taxonomy/term/9834">https://special.library.unlv.edu/taxonomy/term/9834</a>    | <a href="https://schema.org/PerformingGroup">`schema:PerformingGroup`</a> |
