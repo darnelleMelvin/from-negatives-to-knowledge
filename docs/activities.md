@@ -136,9 +136,7 @@ unl:16527 a schema:Person ;
     skos:closeMatch <http://www.wikidata.org/entity/Q105758712> ;
     rdfs:seeAlso <http://n2t.net/ark:/62930/f13t22> .
 ```
-This example uses Schema.org, SKOS, and Agrelon vocabularies to model relationships and biographical metadata. The unl: prefix represents local identifiers from the UNLV taxonomy.
-
----
+This example uses Schema.org, SKOS, and Agrelon vocabularies to model relationships and biographical metadata. The unl: prefix represents local identifiers from the UNLV taxonomy.  
 
 ### 🧾 Explanation of Triples
 
@@ -160,7 +158,7 @@ This example uses Schema.org, SKOS, and Agrelon vocabularies to model relationsh
 **✏️ Task:**    
 Using the example URIs and classes below, write RDF statements to describe the entities using the `a` keyword (for rdf:type) and appropriate Schema.org and skos properties.
 
-### Building on Classes from Part 1
+### Building on Classes from Activity 1
 
 | Entity                                      | URI                                                   | Suggested Class            |
 | ------------------------------------------- | ----------------------------------------------------- | -------------------------- |
@@ -170,7 +168,6 @@ Using the example URIs and classes below, write RDF statements to describe the e
 | St. Joan of Arc Catholic Church             | https://special.library.unlv.edu/taxonomy/term/28100  | `schema:CatholicChurch`    |
 | Sands Hotel & Casino                        | https://special.library.unlv.edu/taxonomy/term/11258  | `schema:Place`             |
 
----
 
 **💡 Try This:**
 Use the following entities to write your own RDF triples:
