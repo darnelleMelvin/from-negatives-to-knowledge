@@ -138,6 +138,7 @@ unl:16527 a schema:Person ;
     agrelon:HasSpouse unl:27781 ;
     agrelon:hasChild unl:17559 ;
     schema:birthDate "1908-09-27"^^xsd:date ;    
+    schema:deathDate "1984-10"^^xsd:date ;
     skos:exactMatch <http://id.loc.gov/authorities/names/no2019080699> ;
     skos:closeMatch <http://www.wikidata.org/entity/Q105758712> ;
     rdfs:seeAlso <http://n2t.net/ark:/62930/f13t22> .
@@ -158,6 +159,7 @@ This example uses Schema.org, SKOS, and Agrelon vocabularies to model relationsh
 | `agrelon:HasSpouse unl:27781` | Relationship link to a spouse entity                                      |
 | `agrelon:hasChild unl:17559`  | Relationship link to a child entity                                       |
 | `schema:birthDate`            | The person's birthdate in ISO format using the XML Schema datatype        |
+| `schema:deathDate`            | The person's deathdate in ISO format using the XML Schema datatype        |
 | `skos:exactMatch`             | Links to a matching external authority record (e.g., Library of Congress) |
 | `skos:closeMatch`             | Links to a matching external authority record (e.g., Wikidata, Dbpedia)   |
 | `rdfs:seeAlso`                | Further information about the subject resource                            |
