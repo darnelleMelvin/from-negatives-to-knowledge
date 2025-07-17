@@ -176,12 +176,12 @@ Using the example URIs and classes below, write RDF statements to describe the e
 ### Building on Classes from Activity 1
 
 | Entity                                      | URI                                                   | Suggested Class                                                  |
-| ------------------------------------------- | -----------------------------------------------------------------------------------------------------------------------  | -------------------------- |
-| Sammy Davis, Jr.                            | <a href="https://special.library.unlv.edu/taxonomy/term/3454">https://special.library.unlv.edu/taxonomy/term/3454</a>    | `schema:Person`            |
-| Will Mastin Trio                            | <a href="https://special.library.unlv.edu/taxonomy/term/9834">https://special.library.unlv.edu/taxonomy/term/9834</a>    | `schema:PerformingGroup`   |
-| Mons. James B. Empey                        | <a href="https://special.library.unlv.edu/taxonomy/term/28078">https://special.library.unlv.edu/taxonomy/term/28078</a>  | `schema:Person`            |
-| St. Joan of Arc Catholic Church             | <a href="https://special.library.unlv.edu/taxonomy/term/28100">https://special.library.unlv.edu/taxonomy/term/28100</a>  | `schema:CatholicChurch`    |
-| Sands Hotel & Casino                        | <a href="https://special.library.unlv.edu/taxonomy/term/11258">https://special.library.unlv.edu/taxonomy/term/11258</a>  | `schema:Place`             |
+| ------------------------------------------- | -----------------------------------------------------------------------------------------------------------------------  | ------------------------------------------------------------------------- |
+| Sammy Davis, Jr.                            | <a href="https://special.library.unlv.edu/taxonomy/term/3454">https://special.library.unlv.edu/taxonomy/term/3454</a>    | <a href="https://schema.org/Person">`schema:Person`</a>                   |
+| Will Mastin Trio                            | <a href="https://special.library.unlv.edu/taxonomy/term/9834">https://special.library.unlv.edu/taxonomy/term/9834</a>    | <a href="https://schema.org/PerformingGroup">`schema:PerformingGroup`</a> |
+| Mons. James B. Empey                        | <a href="https://special.library.unlv.edu/taxonomy/term/28078">https://special.library.unlv.edu/taxonomy/term/28078</a>  | <a href="https://schema.org/Person">`schema:Person`</a>                   |
+| St. Joan of Arc Catholic Church             | <a href="https://special.library.unlv.edu/taxonomy/term/28100">https://special.library.unlv.edu/taxonomy/term/28100</a>  | <a href="https://schema.org/CatholicChurch">`schema:CatholicChurch`</a>   |
+| Sands Hotel & Casino                        | <a href="https://special.library.unlv.edu/taxonomy/term/11258">https://special.library.unlv.edu/taxonomy/term/11258</a>  | <a href="https://schema.org/Place">`schema:Place`</a>                     |
 
 <textarea rows="10" style="width:100%; font-family: monospace;">
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
