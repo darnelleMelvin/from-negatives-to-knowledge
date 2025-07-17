@@ -61,14 +61,12 @@ Click each class below to reveal the corresponding values:
 <details>
 <summary><strong>schema:Person</strong></summary>
 
-- Dr. James B. McMillan
-  
-- Dr. Charles I. West
-  
-- Sammy Davis, Jr.
-  
-- Mons. James B. Empey
-  
+<ul>
+  <li>Dr. James B. McMillan</li>
+  <li>Dr. Charles I. West</li>
+  <li>Sammy Davis, Jr.</li>
+  <li>Mons. James B. Empey</li>
+</ul>
 </details>
 
 <details>
@@ -105,9 +103,9 @@ Click each class below to reveal the corresponding values:
 Using <strong>Part 2: Mapping Concepts to Classes</strong> as a reference, write out a few RDF triples (in Turtle or natural language) that describes an entity.
 
 <textarea rows="10" style="width:100%; font-family: monospace;">
-@prefix schema: <http://schema.org/>
-@prefix ex: <http://example.org/>
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+@prefix schema: <http://schema.org/> .
+@prefix ex: <http://example.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
   
 ex:stJoanOfArcCathChurch a [SELECT a Schema Class] ;
     schema:name "St. Joan of Arc Catholic Church"@en ;
@@ -180,10 +178,10 @@ Using the example URIs and classes below, write RDF statements to describe the e
 | Sands Hotel & Casino                        | https://special.library.unlv.edu/taxonomy/term/11258  | `schema:Place`             |
 
 <textarea rows="10" style="width:100%; font-family: monospace;">
-PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
-PREFIX unl: <https://special.library.unlv.edu/taxonomy/term/>
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-PREFIX schema: <http://schema.org/>
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix unl: <https://special.library.unlv.edu/taxonomy/term/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <http://schema.org/> .
   
 
 </textarea>
@@ -198,10 +196,10 @@ Use the following entities to write your own RDF triples:
 `unl:27746` Arkansas Agricultural, Mechanical, and Normal College  
 
 <textarea rows="10" style="width:100%; font-family: monospace;">
-PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
-PREFIX unl: <https://special.library.unlv.edu/taxonomy/term/>
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-PREFIX schema: <http://schema.org/>
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix unl: <https://special.library.unlv.edu/taxonomy/term/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <http://schema.org/> .
   
 
 </textarea>
