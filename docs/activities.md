@@ -50,7 +50,7 @@ Sands Hotel and Casino: 3355 Las Vegas Boulevard South</p>
 
 ---
 
-## 🗂 Part 2: Mapping Concepts to Classes
+### 🗂 Part 2: Mapping Concepts to Classes
 
 Now that you’ve reviewed the caption, let’s examine how key entities in the photo can be represented using [Schema.org classes](https://schema.org/docs/full.html).
 
@@ -117,13 +117,88 @@ Write out a few RDF triples (in Turtle or natural language) that describe this m
 
 ---
 
-## 2. Modeling Scenario
-You're given metadata for a local church picnic. How would you model:
-- The event?
-- People featured in the image?
-- Their relationship (family, social, professional)?
+## 2. Modeling Scenario and Writing RDF
+Understanding how to express structured metadata in RDF is key to building your knowledge graph. Below is an example using real entities from the project.
+
+### 📄 RDF Triple Structure in Turtle Syntax
+
+```turtle
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix unl: <https://special.library.unlv.edu/taxonomy/term/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+unl:16527 a schema:Person ;
+    skos:prefLabel "West, Charles I., 1908-1984"@en ;
+    skos:note "American doctor, civil rights activist, and newspaper publisher."@en ;
+    schema:name "Charles I. West"@en ;
+    skos:inScheme unl: ;
+    agrelon:HasSpouse unl:27781 ;
+    agrelon:hasChild unl:17559 ;
+    schema:birthDate "1908-09-27"^^xsd:date ;    
+    skos:exactMatch <http://id.loc.gov/authorities/names/no2019080699> ;
+    skos:closeMatch <http://www.wikidata.org/entity/Q105758712> ;
+    rdfs:seeAlso <http://n2t.net/ark:/62930/f13t22> .
+```
+This example uses Schema.org, SKOS, and Agrelon vocabularies to model relationships and biographical metadata. The unl: prefix represents local identifiers from the UNLV taxonomy.
 
 ---
+
+### 🧾 Explanation of Triples
+
+| Triple Component              | Description                                                               |
+| ----------------------------- | ------------------------------------------------------------------------- |
+| `a schema:Person`             | Declares the resource as a person class using Schema.org                  |
+| `skos:prefLabel`              | The preferred label or name of the person                                 |
+| `skos:note`                   | A brief biographical note or description                                  |
+| `schema:name`                 | The name of the item (in direct order)                                    |
+| `skos:inScheme unl:`          | Indicates this term belongs to the UNLV controlled vocabulary             |
+| `agrelon:HasSpouse unl:27781` | Relationship link to a spouse entity                                      |
+| `agrelon:hasChild unl:17559`  | Relationship link to a child entity                                       |
+| `schema:birthDate`            | The person's birthdate in ISO format using the XML Schema datatype        |
+| `skos:exactMatch`             | Links to a matching external authority record (e.g., Library of Congress) |
+| `skos:closeMatch`             | Links to a matching external authority record (e.g., Wikidata, Dbpedia)   |
+| `rdfs:seeAlso`                | Further information about the subject resource                            |
+
+**✏️ Task:**    
+Using the example URIs and classes below, write RDF statements to describe the entities using the `a` keyword (for rdf:type) and appropriate Schema.org and skos properties.
+
+### Building on Classes from Part 1
+
+| Entity                                      | URI                                                   | Suggested Class            |
+| ------------------------------------------- | ----------------------------------------------------- | -------------------------- |
+| Sammy Davis, Jr.                            | https://special.library.unlv.edu/taxonomy/term/3454   | `schema:Person`            |
+| Will Mastin Trio                            | https://special.library.unlv.edu/taxonomy/term/9834   | `schema:PerformingGroup`   |
+| Mons. James B. Empey                        | https://special.library.unlv.edu/taxonomy/term/28078  | `schema:Person`            |
+| St. Joan of Arc Catholic Church             | https://special.library.unlv.edu/taxonomy/term/28100  | `schema:CatholicChurch`    |
+| Sands Hotel & Casino                        | https://special.library.unlv.edu/taxonomy/term/11258  | `schema:Place`             |
+
+---
+
+**💡 Try This:**
+Use the following entities to write your own RDF triples:
+
+`unl:13280` Las Vegas voice  
+
+`unl:17776` Clinton Wright  
+
+`unl:27746` Arkansas Agricultural, Mechanical, and Normal College  
+
+**Focus on:**
+
+* Assigning the correct class using a
+
+* Using `skos:prefLabel` and `schema:name` for the labels
+
+* Using `skos:note` for a description
+
+* Describing relationships using properties like `schema:memberOf`, `schema:member`, `schema:alumniOf`, `schema:alumni`,  or `schema:affiliation`
+
+* Linking entities to external name authority files via `skos:closeMatch` or `skos:exactMatch` 
+
+--- 
 
 ## 3. SPARQL Challenge
 Use our [example dataset](queries.md) and try this:
@@ -134,6 +209,7 @@ WHERE {
   ?person agrelon:hasFamilyRelation ?relatedPerson .
   ?person rdfs:label ?name .
 }
+```
 
 ---
 
