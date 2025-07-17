@@ -114,9 +114,9 @@ Using <strong>Part 2: Mapping Concepts to Classes</strong> as a reference, write
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
   
 ex:stJoanOfArcCathChurch a [SELECT a Schema Class] ;
-    schema:name "St. Joan of Arc Catholic Church"@en ;
+    schema:name "St. Joan of Arc Catholic Church"@en .
 
- .
+    
 </textarea>
 
 > _Bonus challenge:_ Can you find a Wikidata Q-ID or a uri from a name authority file for any of the people, places, or organizations listed?
