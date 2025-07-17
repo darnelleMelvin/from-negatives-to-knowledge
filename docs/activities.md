@@ -104,11 +104,13 @@ Click each class below to reveal the corresponding values:
 **💡 Try this:**  
 Write out a few RDF triples (in Turtle or natural language) that describe this moment using what you know about Schema.org or SKOS.
 
-```turtle
-# Write your RDF triples here
-
-
-```
+<textarea rows="10" style="width:100%; font-family: monospace;">
+# Example:
+# @prefix schema: <http://schema.org/> .
+# <http://example.org/west> a schema:Person ;
+#     schema:name "Dr. Charles I. West" ;
+#     schema:birthDate "1908-09-27"^^xsd:date .
+</textarea>
 
 > _Bonus challenge:_ Can you find a Wikidata Q-ID or a uri from a name authority file for any of the people, places, or organizations listed?
 
