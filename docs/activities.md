@@ -106,7 +106,11 @@ Write out a few RDF triples (in Turtle or natural language) that describe this m
 
 > _Bonus challenge:_ Can you find a Wikidata Q-ID or a uri from a name authority file for any of the people, places, or organizations listed?
 
+```turtle
+# Write your RDF triples here
 
+
+```
 
 ---
 
