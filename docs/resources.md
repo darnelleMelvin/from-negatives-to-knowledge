@@ -63,10 +63,6 @@ This page provides reference materials, controlled vocabularies, and tools that 
   [https://dbpedia.org/sparql](https://dbpedia.org/sparql)  
   A public endpoint to query structured data extracted from Wikipedia.
   
-- **OpenRefine + RDF Extension:**
-  [https://openrefine.org/](https://openrefine.org/)  
-  A powerful tool for cleaning and transforming tabular data, including RDF export.
-  
 - **Protégé (OWL Ontology Editor):**
   [https://protege.stanford.edu/](https://protege.stanford.edu/)  
   An open-source platform for building and exploring ontologies in OWL and RDF.
