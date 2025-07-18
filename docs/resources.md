@@ -31,6 +31,10 @@ This page provides reference materials, controlled vocabularies, and tools that 
   [https://www.w3.org/TR/rdf11-primer/](https://www.w3.org/TR/rdf11-primer/)  
   An introduction to modeling knowledge using RDF triples and serialization formats.
 
+- **RDF 1.2 Turtle**
+  [https://www.w3.org/TR/rdf12-turtle/](https://www.w3.org/TR/rdf12-turtle/)  
+  A compact and readable syntax for writing RDF triples.
+  
 - **RDFS (RDF Schema)**  
   [https://www.w3.org/TR/rdf-schema/](https://www.w3.org/TR/rdf-schema/)  
   Provides mechanisms for describing groups of related resources and relationships between them.
@@ -42,10 +46,6 @@ This page provides reference materials, controlled vocabularies, and tools that 
 - **SKOS (Simple Knowledge Organization System)**  
   [https://www.w3.org/TR/skos-reference/](https://www.w3.org/TR/skos-reference/)  
   Used to represent controlled vocabularies, including named concepts for people, places, and events.
-
-- **RDF 1.2 Turtle**
-  [https://www.w3.org/TR/rdf12-turtle/](https://www.w3.org/TR/rdf12-turtle/)
-  A compact and readable syntax for writing RDF triples.
   
 - **XSD (XML Schema Definition)**  
   [http://www.w3.org/2001/XMLSchema#](https://www.w3.org/2001/XMLSchema#)  
