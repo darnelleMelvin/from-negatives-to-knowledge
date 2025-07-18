@@ -27,10 +27,5 @@ Welcome to the workshop site! This workshop explores how a digitized photographi
 📊 Explore some [SPARQL Queries](queries.md)  
 🔗 Essential [Resources Related to the Project](resources.md)
 
+---
 
-<hr>
-<p style="text-align: right; margin-top: 2em;">
-  <a href="https://special.library.unlv.edu/">
-  <img src="assets/images/unlv_sca_logo.png" alt="UNLV Special Collections & Archives Logo" style="max-width: 200px;">
-  </a>
-</p>
