@@ -57,8 +57,3 @@ These SKOS properties are used to describe concepts and their relationships with
 These classes and properties ensure semantic consistency and support rich, interoperable metadata across the knowledge graph.
 ---
 
-<p style="text-align: right; margin-top: 2em;">
-  <a href="https://special.library.unlv.edu/">
-  <img src="assets/images/unlv_sca_logo.png" alt="UNLV Special Collections & Archives Logo" style="max-width: 200px;">
-  </a>
-</p>
