@@ -106,7 +106,7 @@ Click each class below to reveal the corresponding values:
 ---
 
 **💡 Try this:**  
-Using <strong>Part 2: Mapping Concepts to Classes</strong> as a reference, write out a few RDF triples (in Turtle or natural language) that describes an entity.
+Using <strong>Part 2: Mapping Concepts to Classes</strong> as a reference, write out a few RDF triples (in <a href="https://www.w3.org/TR/rdf12-turtle/">Turtle</a> or natural language) that describes an entity.
 
 <textarea rows="10" style="width:100%; font-family: monospace;">
 @prefix schema: <http://schema.org/> .
