@@ -237,8 +237,3 @@ WHERE {
 
 ---
 
-<p style="text-align: right; margin-top: 2em;">
-  <a href="https://special.library.unlv.edu/">
-  <img src="assets/images/unlv_sca_logo.png" alt="UNLV Special Collections & Archives Logo" style="max-width: 200px;">
-  </a>
-</p>
