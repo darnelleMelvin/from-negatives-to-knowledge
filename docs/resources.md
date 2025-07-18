@@ -68,7 +68,7 @@ This page provides reference materials, controlled vocabularies, and tools that 
   An open-source platform for building and exploring ontologies in OWL and RDF.
 
 - **Validata:**
-  [https://www.w3.org/2015/03/ShExValidata/](https://www.w3.org/2015/03/ShExValidata/)
+  [https://www.w3.org/2015/03/ShExValidata/](https://www.w3.org/2015/03/ShExValidata/)  
   A RDF validator using Shape Expressions.
   
 - **Wikidata Query Service:**
