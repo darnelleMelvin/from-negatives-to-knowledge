@@ -113,7 +113,7 @@ Using <strong>Part 2: Mapping Concepts to Classes</strong> as a reference, write
 @prefix ex: <http://example.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
   
-ex:stJoanOfArcCathChurch a [SELECT a Schema Class] ;
+ex:stJoanOfArcCathChurch a [REPLACE WITH A SCHEMA CLASS HERE] ;
     schema:name "St. Joan of Arc Catholic Church"@en .
 
     
