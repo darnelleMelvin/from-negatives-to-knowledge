@@ -201,15 +201,6 @@ Use the following entities to write your own RDF triples:
 
 <a href="https://special.library.unlv.edu/taxonomy/term/27746">`unl:27746`</a> Arkansas Agricultural, Mechanical, and Normal College  
 
-<textarea rows="10" style="width:100%; font-family: monospace;">
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix unl: <https://special.library.unlv.edu/taxonomy/term/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix schema: <http://schema.org/> .
-  
-
-</textarea>
-
 **Focus on:**
 
 * Assigning the correct class using `a` (short for <a href="https://www.w3.org/TR/rdf-schema/#ch_type">`rdf:type`</a>)
@@ -221,6 +212,15 @@ Use the following entities to write your own RDF triples:
 * Describing relationships using properties like <a href="https://schema.org/memberOf">`schema:memberOf`</a>, <a href="https://schema.org/member">`schema:member`</a>, <a href="https://schema.org/alumniOf">`schema:alumniOf`</a>, <a href="https://schema.org/alumni">`schema:alumni`</a>,  or <a href="https://schema.org/affiliation">`schema:affiliation`</a>
 
 * Linking entities to external name authority files via <a href="https://www.w3.org/2009/08/skos-reference/skos.html#closeMatch">`skos:closeMatch`</a> or <a href="https://www.w3.org/2009/08/skos-reference/skos.html#exactMatch">`skos:exactMatch` 
+
+<textarea rows="10" style="width:100%; font-family: monospace;">
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix unl: <https://special.library.unlv.edu/taxonomy/term/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <http://schema.org/> .
+  
+
+</textarea>
 
 --- 
 
