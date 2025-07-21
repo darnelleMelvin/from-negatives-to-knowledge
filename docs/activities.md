@@ -52,7 +52,7 @@ Sands Hotel and Casino: 3355 Las Vegas Boulevard South</p>
 
 ---
 
-### 🗂 Part 2: Mapping Concepts to Classes
+### 🗂 Part B: Mapping Concepts to Classes
 
 Now that you’ve reviewed the caption, let’s examine how key entities in the photo can be represented using <a href="https://schema.org/docs/full.html" target="_blank">Schema.org classes</a>.  
 
@@ -177,11 +177,11 @@ Using the example URIs and classes below, write RDF statements to describe the e
 
 | Entity                                      | URI                                                   | Class (click on Class to explore their properties)                                                                                           |
 | ------------------------------------------- | -----------------------------------------------------------------------------------------------------------------------  | ------------------------------------------------------------------------- |
-| Sammy Davis, Jr.                            | <a href="https://special.library.unlv.edu/taxonomy/term/3454">https://special.library.unlv.edu/taxonomy/term/3454</a>    | <a href="https://schema.org/Person">`schema:Person`</a>                   |
-| Will Mastin Trio                            | <a href="https://special.library.unlv.edu/taxonomy/term/9834">https://special.library.unlv.edu/taxonomy/term/9834</a>    | <a href="https://schema.org/PerformingGroup">`schema:PerformingGroup`</a> |
-| Mons. James B. Empey                        | <a href="https://special.library.unlv.edu/taxonomy/term/28078">https://special.library.unlv.edu/taxonomy/term/28078</a>  | <a href="https://schema.org/Person">`schema:Person`</a>                   |
-| St. Joan of Arc Catholic Church             | <a href="https://special.library.unlv.edu/taxonomy/term/28100">https://special.library.unlv.edu/taxonomy/term/28100</a>  | <a href="https://schema.org/CatholicChurch">`schema:CatholicChurch`</a>   |
-| Sands Hotel & Casino                        | <a href="https://special.library.unlv.edu/taxonomy/term/11258">https://special.library.unlv.edu/taxonomy/term/11258</a>  | <a href="https://schema.org/Place">`schema:Place`</a>                     |
+| Sammy Davis, Jr.                            | <a href="https://special.library.unlv.edu/taxonomy/term/3454" target="_blank">https://special.library.unlv.edu/taxonomy/term/3454</a>    | <a href="https://schema.org/Person" target="_blank">`schema:Person`</a>                   |
+| Will Mastin Trio                            | <a href="https://special.library.unlv.edu/taxonomy/term/9834" target="_blank">https://special.library.unlv.edu/taxonomy/term/9834</a>    | <a href="https://schema.org/PerformingGroup" target="_blank">`schema:PerformingGroup`</a> |
+| Mons. James B. Empey                        | <a href="https://special.library.unlv.edu/taxonomy/term/28078" target="_blank">https://special.library.unlv.edu/taxonomy/term/28078</a>  | <a href="https://schema.org/Person" target="_blank">`schema:Person`</a>                   |
+| St. Joan of Arc Catholic Church             | <a href="https://special.library.unlv.edu/taxonomy/term/28100" target="_blank">https://special.library.unlv.edu/taxonomy/term/28100</a>  | <a href="https://schema.org/CatholicChurch" target="_blank">`schema:CatholicChurch`</a>   |
+| Sands Hotel & Casino                        | <a href="https://special.library.unlv.edu/taxonomy/term/11258" target="_blank">https://special.library.unlv.edu/taxonomy/term/11258</a>  | <a href="https://schema.org/Place" target="_blank">`schema:Place`</a>                     |
 
 <textarea rows="10" style="width:100%; font-family: monospace;">
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -195,11 +195,11 @@ Using the example URIs and classes below, write RDF statements to describe the e
 **💡 Try This:**
 Use the following entities to write your own RDF triples:
 
-<a href="https://special.library.unlv.edu/taxonomy/term/13280">`unl:13280`</a> Las Vegas voice  
+<a href="https://special.library.unlv.edu/taxonomy/term/13280" target="_blank">`unl:13280`</a> Las Vegas voice  
 
-<a href="https://special.library.unlv.edu/taxonomy/term/17776">`unl:17776`</a> Clinton Wright  
+<a href="https://special.library.unlv.edu/taxonomy/term/17776" target="_blank">`unl:17776`</a> Clinton Wright  
 
-<a href="https://special.library.unlv.edu/taxonomy/term/27746">`unl:27746`</a> Arkansas Agricultural, Mechanical, and Normal College  
+<a href="https://special.library.unlv.edu/taxonomy/term/27746" target="_blank">`unl:27746`</a> Arkansas Agricultural, Mechanical, and Normal College  
 
 **Focus on:**
 
