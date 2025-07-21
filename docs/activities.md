@@ -171,10 +171,19 @@ This example uses Schema.org, SKOS, and Agrelon vocabularies to model relationsh
 | `skos:closeMatch`             | Links to a matching external authority record (e.g., Wikidata, Dbpedia)   |
 | `rdfs:seeAlso`                | Further information about the subject resource                            |
 
-**✏️ Task:**    
-Using the example URIs and classes below, write RDF statements to describe the entities using the `a` keyword (for rdf:type) and appropriate Schema.org and skos properties.
+**✏️ Task:**  
 
-### Building on Classes from Activity 1
+Using the example URIs and classes below, write RDF statements to describe each entity. For each one:
+
+* Use the a keyword to assign the appropriate schema: class as its type <a href="https://www.w3.org/TR/rdf-schema/#ch_type" target="_blank">`rdf:type`</a>  
+
+* Add an skos:prefLabel to provide a human-readable name  
+
+* Add a skos:note to briefly describe the entity  
+
+Using the example URIs and classes below, write RDF statements to describe the entities using the `a` keyword (for <a href="https://www.w3.org/TR/rdf-schema/#ch_type" target="_blank">rdf:type</a>) and appropriate Schema.org and skos properties.
+
+### 💡 Part B: Building on Classes from Activity 1
 
 | Entity                                      | URI                                                   | Class (click on Class to explore their properties)                                                                                           |
 | ------------------------------------------- | -----------------------------------------------------------------------------------------------------------------------  | ------------------------------------------------------------------------- |
