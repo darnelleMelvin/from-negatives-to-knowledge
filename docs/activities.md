@@ -172,13 +172,13 @@ This example uses Schema.org, SKOS, and Agrelon vocabularies to model relationsh
 | `a schema:Person`                    | Declares the resource as a person class using Schema.org.                       |
 | `skos:prefLabel`                     | The preferred label or name of the person, formatted for use in SKOS vocabularies. |
 | `skos:note`                          | A brief biographical note or description.                                       |
-| `skos:inScheme unl:`                | Indicates this term belongs to the UNLV controlled vocabulary (though the URI should be completed). |
+| `skos:inScheme unl:`                | Indicates this term belongs to the UNLV controlled vocabulary. |
 | `schema:name`                        | The name of the item (in direct order), combining given, middle, and family names. |
 | `schema:givenName`                   | The person’s first name.                                                       |
 | `schema:additionalName`              | The person’s middle name or initial.                                           |
 | `schema:familyName`                  | The person’s last name or family name.                                         |
 | `schema:birthDate`                   | The person’s birthdate in ISO format using the XML Schema datatype.           |
-| `schema:birthPlace`                  | URI referring to the person’s place of birth (e.g., GeoNames).                |
+| `schema:birthPlace`                  | URI referring to the person’s place of birth.                |
 | `schema:deathDate`                   | The person’s deathdate in ISO format using the XML Schema datatype.          |
 | `schema:deathPlace`                  | URI referring to the person’s place of death.                                 |
 | `schema:hasOccupation`               | Links to one or more occupation terms using controlled subject vocabularies (e.g., LCSH). |
@@ -197,7 +197,7 @@ This example uses Schema.org, SKOS, and Agrelon vocabularies to model relationsh
 
 Using the example URIs and classes below, write RDF statements to describe each entity. For each one:
 
-* Use the `a` keyword to assign the appropriate schema: class as its <a href="https://www.w3.org/TR/rdf-schema/#ch_type" target="_blank">`rdf:type`</a>  (**SEE OUR PROJECT <a href="https://darnellemelvin.github.io/from-negatives-to-knowledge/classes.html" target="_blank">CLASSES & PROPERTY DOCUMENTATION</a>**)
+* Use the `a` keyword to assign the appropriate schema: class as its <a href="https://www.w3.org/TR/rdf-schema/#ch_type" target="_blank">`rdf:type`</a>  (**SEE OUR PROJECT <a href="https://darnellemelvin.github.io/from-negatives-to-knowledge/classes.html" target="_blank">CLASS & PROPERTY DOCUMENTATION</a>**)
 
 * Add an <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank">`skos:prefLabel`</a> to provide a human-readable name  
 
