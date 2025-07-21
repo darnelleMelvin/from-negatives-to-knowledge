@@ -164,7 +164,7 @@ unl:16527 a skos:Concept ;
 ```
 This example uses Schema.org, SKOS, and Agrelon vocabularies to model relationships and biographical metadata. The unl: prefix represents local identifiers from the UNLV taxonomy.  
 
-### 🧾 Explanation of Triples
+### 🧾 Explanation of RDF Predicates and Selected Triple Components
 
 | **Triple Component**                  | **Description**                                                                 |
 |--------------------------------------|---------------------------------------------------------------------------------|
