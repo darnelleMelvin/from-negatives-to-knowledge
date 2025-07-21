@@ -33,7 +33,7 @@ Look at this sample image from the Marie and James B. McMillan Photograph Collec
     
 Sands Hotel and Casino: 3355 Las Vegas Boulevard South</p> 
 
-<p><strong>Citation</strong>: ohr000452. Marie and James B. McMillan Photograph Collection, 1900-1994. PH-00334. Special Collections and Archives, University Libraries, University of Nevada, Las Vegas. Las Vegas, Nevada. <a href="http://n2t.net/ark:/62930/d1959g30x">http://n2t.net/ark:/62930/d1959g30x</a></p>
+<p><strong>Citation</strong>: ohr000452. Marie and James B. McMillan Photograph Collection, 1900-1994. PH-00334. Special Collections and Archives, University Libraries, University of Nevada, Las Vegas. Las Vegas, Nevada. <a href="http://n2t.net/ark:/62930/d1959g30x" target="_blank">http://n2t.net/ark:/62930/d1959g30x</a></p>
 </div>
 
 <script>
@@ -54,7 +54,7 @@ Sands Hotel and Casino: 3355 Las Vegas Boulevard South</p>
 
 ### 🗂 Part 2: Mapping Concepts to Classes
 
-Now that you’ve reviewed the caption, let’s examine how key entities in the photo can be represented using [Schema.org classes](https://schema.org/docs/full.html).
+Now that you’ve reviewed the caption, let’s examine how key entities in the photo can be represented using <a href="https://schema.org/docs/full.html" target="_blank">Schema.org classes</a>.  
 
 **Prompt:** Read the caption and explore how each of the following Schema.org classes applies to people, groups, organizations, and places mentioned.
 
@@ -106,7 +106,7 @@ Click each class below to reveal the corresponding values:
 ---
 
 **💡 Try this:**  
-Using <strong>Part 2: Mapping Concepts to Classes</strong> as a reference, write out a few RDF triples (in <a href="https://www.w3.org/TR/rdf12-turtle/">Turtle</a> or natural language) that describes an entity.
+Using <strong>Part B: Mapping Concepts to Classes</strong> as a reference, complete the RDF triple statement by replacing the square brackets with an schema.org class.  
 
 <textarea rows="10" style="width:100%; font-family: monospace;">
 @prefix schema: <http://schema.org/> .
@@ -203,37 +203,15 @@ Use the following entities to write your own RDF triples:
 
 **Focus on:**
 
-* Assigning the correct class using `a` (short for <a href="https://www.w3.org/TR/rdf-schema/#ch_type">`rdf:type`</a>)
+* Assigning the correct class using `a` (short for <a href="https://www.w3.org/TR/rdf-schema/#ch_type" target="_blank">`rdf:type`</a>)
 
-* Using <a href="https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel">`skos:prefLabel`</a> and <a href="https://schema.org/name">`schema:name`</a> for the labels
+* Using <a href="https://www.w3.org/2009/08/skos-reference/skos.html#prefLabel" target="_blank">`skos:prefLabel`</a> and <a href="https://schema.org/name" target="_blank">`schema:name`</a> for the labels
 
-* Using <a href="https://www.w3.org/2009/08/skos-reference/skos.html#note">`skos:note`</a> for a description
+* Using <a href="https://www.w3.org/2009/08/skos-reference/skos.html#note" target="_blank">`skos:note`</a> for a description
 
-* Describing relationships using properties like <a href="https://schema.org/memberOf">`schema:memberOf`</a>, <a href="https://schema.org/member">`schema:member`</a>, <a href="https://schema.org/alumniOf">`schema:alumniOf`</a>, <a href="https://schema.org/alumni">`schema:alumni`</a>,  or <a href="https://schema.org/affiliation">`schema:affiliation`</a>
+* Describing relationships using properties like <a href="https://schema.org/memberOf" target="_blank">`schema:memberOf`</a>, <a href="https://schema.org/member" target="_blank">`schema:member`</a>, <a href="https://schema.org/alumniOf" target="_blank">`schema:alumniOf`</a>, <a href="https://schema.org/alumni" target="_blank">`schema:alumni`</a>,  or <a href="https://schema.org/affiliation" target="_blank">`schema:affiliation`</a>
 
-* Linking entities to external name authority files via <a href="https://www.w3.org/2009/08/skos-reference/skos.html#closeMatch">`skos:closeMatch`</a> or <a href="https://www.w3.org/2009/08/skos-reference/skos.html#exactMatch">`skos:exactMatch` 
-
-<textarea rows="10" style="width:100%; font-family: monospace;">
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix unl: <https://special.library.unlv.edu/taxonomy/term/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix schema: <http://schema.org/> .
-  
-
-</textarea>
+* Linking entities to external name authority files via <a href="https://www.w3.org/2009/08/skos-reference/skos.html#closeMatch" target="_blank">`skos:closeMatch`</a> or <a href="https://www.w3.org/2009/08/skos-reference/skos.html#exactMatch" target="_blank">`skos:exactMatch` 
 
 --- 
-
-## Activity 3. SPARQL Challenge
-Use our [example dataset](queries.md) and try this:
-```sparql   
-SELECT ?person ?relation ?relatedPerson
-WHERE {
-  ?person a schema:Person .
-  ?person agrelon:hasFamilyRelation ?relatedPerson .
-  ?person rdfs:label ?name .
-}
-```
-
----
 
