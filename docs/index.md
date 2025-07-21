@@ -25,7 +25,8 @@ Welcome to the workshop site! This workshop explores how a digitized photographi
 🧩 Learn about the [Classes and properties used in our Knowledge Graph](classes.md)  
 🧠 Try the [Hands-On Activities](activities.md)  
 📊 Explore some [SPARQL Queries](queries.md)  
-🔗 Essential [Resources Related to the Project](resources.md)
+🔗 Essential [Resources Related to the Project](resources.md)  
+📽️ View our [Presentation Slides](slides.md)  
 
 ---
 
