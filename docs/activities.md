@@ -197,7 +197,7 @@ This example uses Schema.org, SKOS, and Agrelon vocabularies to model relationsh
 
 Using the example URIs and classes below, write RDF statements to describe each entity. For each one:
 
-* Use the `a` keyword to assign the appropriate schema: class as its <a href="https://www.w3.org/TR/rdf-schema/#ch_type" target="_blank">`rdf:type`</a>  
+* Use the `a` keyword to assign the appropriate schema: class as its <a href="https://www.w3.org/TR/rdf-schema/#ch_type" target="_blank">`rdf:type`</a>  (**SEE OUR PROJECT <a href="https://darnellemelvin.github.io/from-negatives-to-knowledge/classes.html" target="_blank">CLASSES & PROPERTY DOCUMENTATION</a>**)
 
 * Add an <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank">`skos:prefLabel`</a> to provide a human-readable name  
 
