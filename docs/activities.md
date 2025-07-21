@@ -188,18 +188,21 @@ This example uses Schema.org, SKOS, and Agrelon vocabularies to model relationsh
 | `skos:closeMatch`             | Links to a matching external authority record (e.g., Wikidata, Dbpedia)   |
 | `rdfs:seeAlso`                | Further information about the subject resource                            |
 
-**✏️ Task:**  
+---
 
-Using the example URIs and classes below, write RDF statements to describe each entity. For each one:
+
+
+
+### 💡 Part B: Building on Classes from Activity 1
+
+**✏️ Task:** Using the example URIs and classes below, write RDF statements to describe each entity. For each one:
 
 * Use the `a` keyword to assign the appropriate schema: class as its <a href="https://www.w3.org/TR/rdf-schema/#ch_type" target="_blank">`rdf:type`</a>  
 
 * Add an <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank">`skos:prefLabel`</a> to provide a human-readable name  
 
-* Add a <a href="http://www.w3.org/2004/02/skos/core#note" target="_blank">`skos:note`</a> to briefly describe the entity  
+* Add a <a href="http://www.w3.org/2004/02/skos/core#note" target="_blank">`skos:note`</a> to briefly describe the entity
 
-
-### 💡 Part B: Building on Classes from Activity 1
 
 | Entity                                      | URI                                                   | Class (click on Class to explore their properties)                                                                                           |
 | ------------------------------------------- | -----------------------------------------------------------------------------------------------------------------------  | ------------------------------------------------------------------------- |
@@ -214,7 +217,7 @@ Using the example URIs and classes below, write RDF statements to describe each 
 @prefix unl: <https://special.library.unlv.edu/taxonomy/term/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix schema: <http://schema.org/> .
-  
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .  
 
 </textarea>
 
@@ -235,7 +238,7 @@ Use the following entities to write your own RDF triples:
 
 * Using <a href="https://www.w3.org/2009/08/skos-reference/skos.html#note" target="_blank">`skos:note`</a> for a description
 
-* Describing relationships using properties like <a href="https://schema.org/memberOf" target="_blank">`schema:memberOf`</a>, <a href="https://schema.org/member" target="_blank">`schema:member`</a>, <a href="https://schema.org/alumniOf" target="_blank">`schema:alumniOf`</a>, <a href="https://schema.org/alumni" target="_blank">`schema:alumni`</a>,  or <a href="https://schema.org/affiliation" target="_blank">`schema:affiliation`</a>
+* Describing relationships using properties like <a href="https://schema.org/memberOf" target="_blank">`schema:memberOf`</a>, <a href="https://schema.org/member" target="_blank">`schema:member`</a>, <a href="https://schema.org/alumniOf" target="_blank">`schema:alumniOf`</a>, <a href="https://schema.org/alumni" target="_blank">`schema:alumni`</a>, <a href="https://d-nb.info/standards/elementset/agrelon#hasEmployer" target="_blank">`agrelon:hasEmployer`</a>, <a href="https://d-nb.info/standards/elementset/agrelon#hasEmployee" target="_blank">`agrelon:hasEmployee`</a>, or <a href="https://schema.org/affiliation" target="_blank">`schema:affiliation`</a>
 
 * Linking entities to external name authority files via <a href="https://www.w3.org/2009/08/skos-reference/skos.html#closeMatch" target="_blank">`skos:closeMatch`</a> or <a href="https://www.w3.org/2009/08/skos-reference/skos.html#exactMatch" target="_blank">`skos:exactMatch` 
 
