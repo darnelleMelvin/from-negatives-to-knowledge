@@ -139,15 +139,32 @@ Understanding how to express structured metadata in RDF is key to building your 
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-unl:16527 a schema:Person ;
+unl:16527 a skos:Concept ;
+    a schema:Person ;
     skos:prefLabel "West, Charles I., 1908-1984"@en ;
     skos:note "American doctor, civil rights activist, and newspaper publisher."@en ;
-    schema:name "Charles I. West"@en ;
     skos:inScheme unl: ;
+    schema:name "Charles I. West"@en ;
+    schema:givenName "Charles"@en ;
+    schema:additionalName "I."@en ;
+    schema:familyName "West"@en ;
+    schema:birthDate "1908-09-27"^^xsd:date ;    
+    schema:birthPlace <https://sws.geonames.org/4138106/> ;
+    schema:deathDate "1984-10"^^xsd:date ;
+    schema:deathPlace <https://sws.geonames.org/7174241/> ;
+    schema:hasOccupation <http://id.loc.gov/authorities/subjects/sh85026385> ;
+    schema:hasOccupation <http://id.loc.gov/authorities/subjects/sh85101610> ;
+    schema:alumniOf unl:26371 ;
+    schema:alumniOf unl:26372 ;
+    schema:founder unl:13280 ;
     agrelon:HasSpouse unl:27781 ;
     agrelon:hasChild unl:17559 ;
-    schema:birthDate "1908-09-27"^^xsd:date ;    
-    schema:deathDate "1984-10"^^xsd:date ;
+    agrelon:HasColleague unl:15502 ;
+    agrelon:HasColleague unl:15811 ;
+    agrelon:HasColleague unl:16510 ;
+    agrelon:HasColleague unl:1758 ;
+    agrelon:HasColleague unl:17776 ;
+    agrelon:HasColleague unl:6025 ;
     skos:exactMatch <http://id.loc.gov/authorities/names/no2019080699> ;
     skos:closeMatch <http://www.wikidata.org/entity/Q105758712> ;
     rdfs:seeAlso <http://n2t.net/ark:/62930/f13t22> .
@@ -175,13 +192,12 @@ This example uses Schema.org, SKOS, and Agrelon vocabularies to model relationsh
 
 Using the example URIs and classes below, write RDF statements to describe each entity. For each one:
 
-* Use the a keyword to assign the appropriate schema: class as its type <a href="https://www.w3.org/TR/rdf-schema/#ch_type" target="_blank">`rdf:type`</a>  
+* Use the `a` keyword to assign the appropriate schema: class as its <a href="https://www.w3.org/TR/rdf-schema/#ch_type" target="_blank">`rdf:type`</a>  
 
-* Add an skos:prefLabel to provide a human-readable name  
+* Add an <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank">`skos:prefLabel`</a> to provide a human-readable name  
 
-* Add `a` skos:note to briefly describe the entity  
+* Add a <a href="http://www.w3.org/2004/02/skos/core#note" target="_blank">`skos:note`</a> to briefly describe the entity  
 
-Using the example URIs and classes below, write RDF statements to describe the entities using the `a` keyword (for <a href="https://www.w3.org/TR/rdf-schema/#ch_type" target="_blank">rdf:type</a>) and appropriate Schema.org and skos properties.
 
 ### 💡 Part B: Building on Classes from Activity 1
 
