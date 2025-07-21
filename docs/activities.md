@@ -112,6 +112,7 @@ Using <strong>Part B: Mapping Concepts to Classes</strong> as a reference, compl
 @prefix schema: <http://schema.org/> .
 @prefix ex: <http://example.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <https://www.wikidata.org/entity/> .  
   
 ex:stJoanOfArcCathChurch a [REPLACE WITH A SCHEMA CLASS HERE] ;
     schema:name "St. Joan of Arc Catholic Church"@en .
