@@ -179,7 +179,7 @@ Using the example URIs and classes below, write RDF statements to describe each 
 
 * Add an skos:prefLabel to provide a human-readable name  
 
-* Add a skos:note to briefly describe the entity  
+* Add `a` skos:note to briefly describe the entity  
 
 Using the example URIs and classes below, write RDF statements to describe the entities using the `a` keyword (for <a href="https://www.w3.org/TR/rdf-schema/#ch_type" target="_blank">rdf:type</a>) and appropriate Schema.org and skos properties.
 
