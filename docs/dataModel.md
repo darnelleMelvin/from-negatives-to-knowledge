@@ -69,7 +69,7 @@ The following namespaces are used in this project:
 @prefix wd:      <https://www.wikidata.org/entity/>  
 @prefix xsd:     <http://www.w3.org/2001/XMLSchema#>   
 
-</br>For a full list of namespace declarations see my library Linked Data [Namespaces Repo](https://github.com/darnelleMelvin/libraryLinkedData_namespaces).
+For a full list of namespace declarations see my library Linked Data [Namespaces Repo](https://github.com/darnelleMelvin/libraryLinkedData_namespaces).
 
 ---
 
