@@ -197,8 +197,8 @@ This example uses Schema.org, SKOS, and Agrelon vocabularies to model relationsh
 
 Using the example URIs and classes below, write RDF statements to describe each entity. For each one:
 
-* Use the `a` keyword to assign the appropriate schema: class as its <a href="https://www.w3.org/TR/rdf-schema/#ch_type" target="_blank">`rdf:type`</a>  (**SEE OUR PROJECT <a href="https://darnellemelvin.github.io/from-negatives-to-knowledge/classes.html" target="_blank">CLASS & PROPERTY DOCUMENTATION</a>**)
-
+* Use the `a` keyword to assign the appropriate schema: class as its <a href="https://www.w3.org/TR/rdf-schema/#ch_type" target="_blank">`rdf:type`</a>
+  
 * Add an <a href="http://www.w3.org/2004/02/skos/core#prefLabel" target="_blank">`skos:prefLabel`</a> to provide a human-readable name  
 
 * Add a <a href="http://www.w3.org/2004/02/skos/core#note" target="_blank">`skos:note`</a> to briefly describe the entity
@@ -222,7 +222,7 @@ Using the example URIs and classes below, write RDF statements to describe each 
 </textarea>
 
 **💡 Try This:**
-Use the following entities to write your own RDF triples:
+Use the following entities to write your own RDF triples (**SEE OUR PROJECT <a href="https://darnellemelvin.github.io/from-negatives-to-knowledge/classes.html" target="_blank">CLASS & PROPERTY DOCUMENTATION</a>**):  
 
 <a href="https://special.library.unlv.edu/taxonomy/term/13280" target="_blank">`unl:13280`</a> Las Vegas voice  
 
