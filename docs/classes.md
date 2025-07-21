@@ -8,7 +8,7 @@
 
 # 🧩 Classes and Properties Used in this Knowledge Graph
 
-These are the RDF classes selected to model entity types in the knowledge graph as part of **Step 3: Select Classes and Properties** in the metadata creation workflow.
+These are the initial RDF classes selected to model entity types in the knowledge graph as part of **Step 3: Select Classes and Properties** in the metadata creation workflow. Additional classes may be incorporated as the project develops.  
 
 ## <img width="80" height="21" alt="image" src="https://github.com/user-attachments/assets/db185c42-afa2-4aef-b3c3-021357daf4ae" /> Classes
 
