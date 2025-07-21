@@ -84,13 +84,6 @@ Click each class below to reveal the corresponding values:
 
 <ul>
   <li>George Washington Carver Memorial Institute</li>
-</ul>
-</details>
-
-<details>
-<summary><strong>schema:CatholicChurch</strong></summary>
-
-<ul>
   <li>St. Joan of Arc Catholic Church</li>
 </ul>
 </details>
@@ -209,7 +202,7 @@ This example uses Schema.org, SKOS, and Agrelon vocabularies to model relationsh
 | Sammy Davis, Jr.                            | <a href="https://special.library.unlv.edu/taxonomy/term/3454" target="_blank">https://special.library.unlv.edu/taxonomy/term/3454</a>    | <a href="https://schema.org/Person" target="_blank">`schema:Person`</a>                   |
 | Will Mastin Trio                            | <a href="https://special.library.unlv.edu/taxonomy/term/9834" target="_blank">https://special.library.unlv.edu/taxonomy/term/9834</a>    | <a href="https://schema.org/PerformingGroup" target="_blank">`schema:PerformingGroup`</a> |
 | Mons. James B. Empey                        | <a href="https://special.library.unlv.edu/taxonomy/term/28078" target="_blank">https://special.library.unlv.edu/taxonomy/term/28078</a>  | <a href="https://schema.org/Person" target="_blank">`schema:Person`</a>                   |
-| St. Joan of Arc Catholic Church             | <a href="https://special.library.unlv.edu/taxonomy/term/28100" target="_blank">https://special.library.unlv.edu/taxonomy/term/28100</a>  | <a href="https://schema.org/CatholicChurch" target="_blank">`schema:CatholicChurch`</a>   |
+| St. Joan of Arc Catholic Church             | <a href="https://special.library.unlv.edu/taxonomy/term/28100" target="_blank">https://special.library.unlv.edu/taxonomy/term/28100</a>  | <a href="https://schema.org/Organization" target="_blank">`schema:Organization`</a>   |
 | Sands Hotel & Casino                        | <a href="https://special.library.unlv.edu/taxonomy/term/11258" target="_blank">https://special.library.unlv.edu/taxonomy/term/11258</a>  | <a href="https://schema.org/Place" target="_blank">`schema:Place`</a>                     |
 
 <textarea rows="10" style="width:100%; font-family: monospace;">
