@@ -166,29 +166,36 @@ This example uses Schema.org, SKOS, and Agrelon vocabularies to model relationsh
 
 ### 🧾 Explanation of Triples
 
-| Triple Component              | Description                                                               |
-| ----------------------------- | ------------------------------------------------------------------------- |
-| `a schema:Person`             | Declares the resource as a person class using Schema.org                  |
-| `skos:prefLabel`              | The preferred label or name of the person                                 |
-| `skos:note`                   | A brief biographical note or description                                  |
-| `schema:name`                 | The name of the item (in direct order)                                    |
-| `skos:inScheme unl:`          | Indicates this term belongs to the UNLV controlled vocabulary             |
-| `agrelon:HasSpouse unl:27781` | Relationship link to a spouse entity                                      |
-| `agrelon:hasChild unl:17559`  | Relationship link to a child entity                                       |
-| `schema:birthDate`            | The person's birthdate in ISO format using the XML Schema datatype        |
-| `schema:deathDate`            | The person's deathdate in ISO format using the XML Schema datatype        |
-| `skos:exactMatch`             | Links to a matching external authority record (e.g., Library of Congress) |
-| `skos:closeMatch`             | Links to a matching external authority record (e.g., Wikidata, Dbpedia)   |
-| `rdfs:seeAlso`                | Further information about the subject resource                            |
+| **Triple Component**                  | **Description**                                                                 |
+|--------------------------------------|---------------------------------------------------------------------------------|
+| `a skos:Concept`                     | Declares the resource as a SKOS concept, allowing it to function in a controlled vocabulary or thesaurus. |
+| `a schema:Person`                    | Declares the resource as a person class using Schema.org.                       |
+| `skos:prefLabel`                     | The preferred label or name of the person, formatted for use in SKOS vocabularies. |
+| `skos:note`                          | A brief biographical note or description.                                       |
+| `skos:inScheme unl:`                | Indicates this term belongs to the UNLV controlled vocabulary (though the URI should be completed). |
+| `schema:name`                        | The name of the item (in direct order), combining given, middle, and family names. |
+| `schema:givenName`                   | The person’s first name.                                                       |
+| `schema:additionalName`              | The person’s middle name or initial.                                           |
+| `schema:familyName`                  | The person’s last name or family name.                                         |
+| `schema:birthDate`                   | The person’s birthdate in ISO format using the XML Schema datatype.           |
+| `schema:birthPlace`                  | URI referring to the person’s place of birth (e.g., GeoNames).                |
+| `schema:deathDate`                   | The person’s deathdate in ISO format using the XML Schema datatype.          |
+| `schema:deathPlace`                  | URI referring to the person’s place of death.                                 |
+| `schema:hasOccupation`               | Links to one or more occupation terms using controlled subject vocabularies (e.g., LCSH). |
+| `schema:alumniOf`                    | Indicates the person attended (graduated from) the institution identified by the URI. |
+| `schema:founder`                     | Indicates the person founded the organization or entity identified by the URI. |
+| `agrelon:HasSpouse unl:27781`        | Relationship link to a spouse entity.                                          |
+| `agrelon:hasChild unl:17559`         | Relationship link to a child entity.                                           |
+| `agrelon:HasColleague`              | Indicates professional relationships with identified colleagues.               |
+| `skos:exactMatch`                    | Links to a matching external authority record (e.g., Library of Congress).     |
+| `skos:closeMatch`                    | Links to a closely matching external authority record (e.g., Wikidata, Dbpedia). |
+| `rdfs:seeAlso`                       | Further information about the subject resource, typically linking to related web or archival content. |
 
 ---
 
+### 💡 Part B: Building on Classes from Activity 1  
 
-
-
-### 💡 Part B: Building on Classes from Activity 1
-
-**✏️ Task:** Using the example URIs and classes below, write RDF statements to describe each entity. For each one:
+Using the example URIs and classes below, write RDF statements to describe each entity. For each one:
 
 * Use the `a` keyword to assign the appropriate schema: class as its <a href="https://www.w3.org/TR/rdf-schema/#ch_type" target="_blank">`rdf:type`</a>  
 
@@ -221,7 +228,9 @@ Use the following entities to write your own RDF triples:
 
 <a href="https://special.library.unlv.edu/taxonomy/term/17776" target="_blank">`unl:17776`</a> Clinton Wright  
 
-<a href="https://special.library.unlv.edu/taxonomy/term/27746" target="_blank">`unl:27746`</a> Arkansas Agricultural, Mechanical, and Normal College  
+<a href="https://special.library.unlv.edu/taxonomy/term/27746" target="_blank">`unl:27746`</a> Arkansas Agricultural, Mechanical, and Normal College 
+
+<a href="https://special.library.unlv.edu/taxonomy/term/16527" target="_blank">`unl:16527`</a> Dr. Charles I. West
 
 **Focus on:**
 
