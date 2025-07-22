@@ -8,13 +8,13 @@
 
 # 📊 SPARQL Queries
 
-Explore queries contributed by and inspired by UNLV Wikimedians and Wikidata editors, focusing on the African Diaspora and broader community-linked topics. These examples progress from basic lookups to advanced graph patterns.
+Explore queries contributed by and inspired by UNLV Wikimedians and Wikidata editors, focusing on community-linked topics. These examples progress from basic lookups to advanced graph patterns.
 
 ---
 
 ### 🔍 Query #1: What *types* of things have UNLV Wikimedians contributed to?
 
-This query looks at all items connected to the [UNLV Wikimedians Projects](https://www.wikidata.org/wiki/Q100202113) and returns what types of entities they are (`instance of`, `P31`).
+This query looks at all items connected to the [UNLV Wikimedians Projects](https://www.wikidata.org/wiki/Q100202113) and returns what types of entities they are `instance of`(`wdt:P31`).
 
 ```sparql
 SELECT DISTINCT ?instanceOfLabel ?instanceOf
