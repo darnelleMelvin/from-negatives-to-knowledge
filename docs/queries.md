@@ -27,7 +27,7 @@ WHERE
 
 ```
 
-<strong><a href="https://query.wikidata.org/#SELECT%20DISTINCT%20%3FinstanceOfLabel%20%3FinstanceOf%0AWHERE%20%7B%0A%20%20%3Fresource%20wdt%3AP5008%20wd%3AQ100202113%20%3B%0A%20%20%20%20%20%20%20%20wdt%3AP31%20%3FinstanceOf%20.%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%7D%0A%7D%0AORDER%20BY%20ASC(%3FinstanceOfLabel)" target="_blank">▶️ Run this query on Wikidata</a></strong>
+<strong><a href="https://query.wikidata.org/#SELECT%20DISTINCT%20%3FinstanceOfLabel%20%3FinstanceOf%0AWHERE%0A%7B%0A%20%3Fresource%20wdt%3AP5008%20wd%3AQ100202113%20%3B%0A%20%20%20%20%20wdt%3AP31%20%3FinstanceOf%20.%0A%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%7D%0A%7DORDER%20BY%20ASC%28%3FinstanceOfLabel%29%0A" target="_blank">▶️ Run this query on Wikidata</a></strong>
 
 ---
 
@@ -46,7 +46,7 @@ WHERE
 }ORDER BY ?propertyLabel
 
 ```
-<strong><a href="https://query.wikidata.org/#SELECT%20DISTINCT%20%3Fproperty%20%3FpropertyLabel%0AWHERE%20%7B%0A%20%20%3Fitem%20wdt%3AP5008%20wd%3AQ100202113%20.%0A%20%20%3Fitem%20%3Fprop%20%3Fvalue%20.%0A%20%20%3Fproperty%20wikibase%3AdirectClaim%20%3Fprop%20.%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%7D%0A%7D%0AORDER%20BY%20%3FpropertyLabel" target="_blank" rel="noopener noreferrer">▶️ Run this query on Wikidata</a></strong>
+<strong><a href="https://query.wikidata.org/#SELECT%20DISTINCT%20%3Fproperty%20%3FpropertyLabel%0AWHERE%0A%7B%0A%20%3Fresource%20wdt%3AP5008%20wd%3AQ100202113%20.%0A%20%3Fresource%20%3Fprop%20%3Fvalue%20.%0A%20%3Fproperty%20wikibase%3AdirectClaim%20%3Fprop%20.%0A%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%7D%0A%7DORDER%20BY%20%3FpropertyLabel" target="_blank">▶️ Run this query on Wikidata</a></strong>
 
 ---
 
@@ -64,6 +64,7 @@ WHERE
  BIND(?type AS ?layer)
  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
 }ORDER BY ASC(?layerLabel)
+
 ```
 
 <strong><a href="https://query.wikidata.org/#%23defaultView%3AMap%0ASELECT%20DISTINCT%20%3Fresource%20%3FresourceLabel%20%3Fcoord%20%3FlayerLabel%0AWHERE%0A%7B%0A%20%3Fresource%20wdt%3AP5008%20wd%3AQ100202113%20%3B%0A%20%20%20%20%20wdt%3AP31%20%3Ftype%20%3B%0A%20%20%20%20%20wdt%3AP625%20%3Fcoord%20.%0A%20BIND%28%3Ftype%20AS%20%3Flayer%29%0A%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%7D%0A%7DORDER%20BY%20ASC%28%3FlayerLabel%29" target="_blank">▶️ Run this query with Map view</a></strong>
@@ -118,3 +119,5 @@ LIMIT 100
 ```
 
 <strong><a href="https://query.wikidata.org/#CONSTRUCT%20%7B%0A%20%20%3Fitem%20a%20skos%3AConcept%2Cschema%3APerson%20.%0A%20%20%3Fitem%20skos%3AprefLabel%20%3FitemLabel%20.%0A%20%20%3Fitem%20skos%3Adefinition%20%3Fdescription%20.%0A%20%20%3Fitem%20schema%3AbirthDate%20%3FdateOfBirth%20.%0A%20%20%3Fitem%20schema%3AdeathDate%20%3FdateOfDeath%20.%0A%20%20%3Fitem%20schema%3AbirthPlace%20%3FplaceOfBirth%20.%0A%20%20%3Fitem%20schema%3Aoccupation%20%3Foccupation%20.%0A%20%20%3Foccupation%20a%20skos%3AConcept%2Cschema%3AOccupation%20.%0A%20%20%3Foccupation%20skos%3AprefLabel%20%3FoccupationLabel%20.%0A%20%20%3Foccupation%20schema%3Adescription%20%3Foccupation_description%20.%0A%20%20%3FplaceOfBirth%20a%20skos%3AConcept%2Cschema%3APlace%20.%0A%20%20%3FplaceOfBirth%20skos%3AprefLabel%20%3FplaceOfBirthLabel%20.%0A%20%20%3FplaceOfBirth%20schema%3Adescription%20%3FplaceOfBirth_description%20.%0A%7D%0AWHERE%20%7B%0A%20%20%3Fitem%20wdt%3AP5008%20wd%3AQ15304953%20%3B%0A%20%20%20%20wdt%3AP31%20wd%3AQ5%20%3B%0A%20%20%20%20wdt%3AP31%20%3FinstanceOf%20.%0A%20%20%3Fitem%20schema%3Adescription%20%3Fdescription%20.%0A%20%20FILTER%20(LANG(%3Fdescription)%20%3D%20%22en%22)%0A%20%20%3Fitem%20wdt%3AP106%20%3Foccupation%20.%0A%20%20%3Foccupation%20rdfs%3Alabel%20%3FoccupationLabel%20.%0A%20%20FILTER%20(LANG(%3FoccupationLabel)%20%3D%20%22en%22)%0A%20%20%3Foccupation%20schema%3Adescription%20%3Foccupation_description%20.%0A%20%20FILTER%20(LANG(%3Foccupation_description)%20%3D%20%22en%22)%0A%20%20%3Fitem%20wdt%3AP569%20%3FdateOfBirth%20.%0A%20%20OPTIONAL%20%7B%3Fitem%20wdt%3AP570%20%3FdateOfDeath%7D%20.%0A%20%20%3Fitem%20wdt%3AP19%20%3FplaceOfBirth%20.%0A%20%20%3FplaceOfBirth%20rdfs%3Alabel%20%3FplaceOfBirthLabel%20.%0A%20%20FILTER%20(LANG(%3FplaceOfBirthLabel)%20%3D%20%22en%22)%0A%20%20%3FplaceOfBirth%20schema%3Adescription%20%3FplaceOfBirth_description%20.%0A%20%20FILTER%20(LANG(%3FplaceOfBirth_description)%20%3D%20%22en%22)%0A%7D%20LIMIT%20100" target="_blank">▶️ Run this graph query</a></strong>
+
+---
