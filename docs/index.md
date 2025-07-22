@@ -22,7 +22,7 @@ Welcome to the workshop site! This workshop explores how a digitized photographi
 🗓 Start with the [Workshop Agenda](agenda.md)  
 📚 Learn more [About the Project](about.md)  
 <img width="20" height="20" alt="image" src="https://github.com/user-attachments/assets/216a1441-1991-4dbd-91be-f19eecc51d2e" /> See our [Modeling Decisions](dataModel.md)  
-🧩 Learn about the [Classes and Properties used in our Knowledge Graph](classes.md)  
+🧩 Learn about the [Classes and Properties Used in our Knowledge Graph](classes.md)  
 🧠 Try the [Hands-On Activities](activities.md)  
 📊 Explore some [SPARQL Queries](queries.md)  
 🔗 Essential [Resources Related to the Project](resources.md)  
