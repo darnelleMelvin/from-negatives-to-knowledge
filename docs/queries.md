@@ -66,7 +66,7 @@ WHERE
 }ORDER BY ASC(?layerLabel)
 ```
 
-<strong><a href="https://query.wikidata.org/#SELECT%20DISTINCT%20%3Fitem%20%3FitemLabel%20%3Fcoord%20%3FtypeLabel%0AWHERE%20%7B%0A%20%20%3Fitem%20wdt%3AP5008%20wd%3AQ100202113%20%3B%0A%20%20%20%20%20%20%20%20wdt%3AP31%20%3Ftype%20%3B%0A%20%20%20%20%20%20%20%20wdt%3AP625%20%3Fcoord%20.%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22%20%7D%0A%7D" target="_blank" rel="noopener noreferrer">▶️ Run this query with Map view</a></strong>
+<strong><a href="https://query.wikidata.org/#%23defaultView%3AMap%0ASELECT%20DISTINCT%20%3Fresource%20%3FresourceLabel%20%3Fcoord%20%3FlayerLabel%0AWHERE%0A%7B%0A%20%3Fresource%20wdt%3AP5008%20wd%3AQ100202113%20%3B%0A%20%20%20%20%20wdt%3AP31%20%3Ftype%20%3B%0A%20%20%20%20%20wdt%3AP625%20%3Fcoord%20.%0A%20BIND%28%3Ftype%20AS%20%3Flayer%29%0A%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%7D%0A%7DORDER%20BY%20ASC%28%3FlayerLabel%29" target="_blank">▶️ Run this query with Map view</a></strong>
 
 ---
 
