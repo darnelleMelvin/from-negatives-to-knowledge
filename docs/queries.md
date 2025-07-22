@@ -55,14 +55,15 @@ This adds a map visualization layer for contributions to Wikidata by the UNLV Wi
 
 ```sparql
 #defaultView:Map
-SELECT DISTINCT ?resource ?resourceLabel ?coord ?typeLabel
+SELECT DISTINCT ?resource ?resourceLabel ?coord ?layerLabel
 WHERE
 {
  ?resource wdt:P5008 wd:Q100202113 ;
      wdt:P31 ?type ;
      wdt:P625 ?coord .
+ BIND(?type AS ?layer)
  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
-}
+}ORDER BY ASC(?layerLabel)
 ```
 
 <strong><a href="https://query.wikidata.org/#SELECT%20DISTINCT%20%3Fitem%20%3FitemLabel%20%3Fcoord%20%3FtypeLabel%0AWHERE%20%7B%0A%20%20%3Fitem%20wdt%3AP5008%20wd%3AQ100202113%20%3B%0A%20%20%20%20%20%20%20%20wdt%3AP31%20%3Ftype%20%3B%0A%20%20%20%20%20%20%20%20wdt%3AP625%20%3Fcoord%20.%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22%20%7D%0A%7D" target="_blank" rel="noopener noreferrer">▶️ Run this query with Map view</a></strong>
