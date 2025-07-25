@@ -80,7 +80,7 @@ Below are conceptual diagrams showing how key entity types are modeled and linke
 ### 📌 1. `schema:Person` Modeling Decisions
 
 <p align="center">
-  <img src="assets/images/dataModel_schemaPerson.jpg" alt="Data model for schema:Person" style="max-width: 100%; border: 1px solid #ccc; border-radius: 8px;">
+  <img src="assets/images/dataModel_schemaPerson_01.jpg" alt="Data model for schema:Person" style="max-width: 100%; border: 1px solid #ccc; border-radius: 8px;">
 </p>
 
 A diagram showing how a `schema:Person` is modeled using properties like `birthDate`, `birthPlace`, `deathPlace`, `hasOccupation`, and connections to external authority files using `skos:closeMatch` and `skos:exactMatch`.
@@ -90,7 +90,7 @@ A diagram showing how a `schema:Person` is modeled using properties like `birthD
 ### 📌 2. `schema:Organization` Modeling Decisions
 
 <p align="center">
-  <img src="assets/images/dataModel_schemaOrg.jpg" alt="Data model for schema:Organization" style="max-width: 100%; border: 1px solid #ccc; border-radius: 8px;">
+  <img src="assets/images/dataModel_schemaOrg_01.jpg" alt="Data model for schema:Organization" style="max-width: 100%; border: 1px solid #ccc; border-radius: 8px;">
 </p>
 
 This diagram models various types of organizations—such as schools, churches, and businesses—using appropriate `schema:Organization` subclasses and descriptive properties.
@@ -100,7 +100,7 @@ This diagram models various types of organizations—such as schools, churches, 
 ### 📌 3. `unl:` Modeling Decisions (Node-to-Node Linking) 
 
 <p align="center">
-  <img src="assets/images/dataModel_unlNode2Node.jpg" alt="unl: Node Linkage Model" style="max-width: 100%; border: 1px solid #ccc; border-radius: 8px;">
+  <img src="assets/images/dataModel_unlNode2Node_01.jpg" alt="unl: Node Linkage Model" style="max-width: 100%; border: 1px solid #ccc; border-radius: 8px;">
 </p>
 
 This conceptual graphic shows how one `unl:` node is connected to another `unl:` node using semantic relationships drawn from vocabularies such as `agrelon:` and `schema:`. These links capture real-world relationships like affiliation, employment, or organizational roles within the graph.
