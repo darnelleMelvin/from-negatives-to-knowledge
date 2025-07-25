@@ -56,18 +56,19 @@ In RDF data modeling, **namespace declarations** define shorthand prefixes for l
 The following namespaces are used in this project:
 
  
-@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#>   
-@prefix dct:     <http://purl.org/dc/terms/>  
-@prefix gn:      <http://www.geonames.org/ontology#>   
-@prefix lcsh:    <http://id.loc.gov/authorities/subjects/>   
-@prefix naf:     <http://id.loc.gov/authorities/names/>   
-@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>   
-@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#>   
-@prefix schema:  <http://schema.org/>   
-@prefix skos:    <http://www.w3.org/2004/02/skos/core#>   
-@prefix unl:     <https://special.library.unlv.edu/taxonomy/term/>   
-@prefix wd:      <https://www.wikidata.org/entity/>  
-@prefix xsd:     <http://www.w3.org/2001/XMLSchema#>   
+PREFIX agrelon: <https://d-nb.info/standards/elementset/agrelon#>   
+PREFIX dct:     <http://purl.org/dc/terms/>  
+PREFIX gname: <https://sws.geonames.org/>  
+PREFIX gn:      <http://www.geonames.org/ontology#>   
+PREFIX lcsh:    <http://id.loc.gov/authorities/subjects/>   
+PREFIX naf:     <http://id.loc.gov/authorities/names/>   
+PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>   
+PREFIX rdfs:    <http://www.w3.org/2000/01/rdf-schema#>   
+PREFIX schema:  <http://schema.org/>   
+PREFIX skos:    <http://www.w3.org/2004/02/skos/core#>   
+PREFIX unl:     <https://special.library.unlv.edu/taxonomy/term/>   
+PREFIX wd:      <https://www.wikidata.org/entity/>  
+PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>   
 
 For a full list of namespace declarations see my library Linked Data <a href="https://github.com/darnelleMelvin/libraryLinkedData_namespaces" target="_blank">Namespaces Repo</a>.
 
