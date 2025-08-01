@@ -27,6 +27,8 @@ Welcome to the workshop site! This workshop explores how a digitized photographi
 📊 Explore some [SPARQL Queries](queries.md)  
 🔗 Essential [Resources Related to the Project](resources.md)  
 📽️ View our [Workshop Slides](slides.md)  
+<img width="16" height="16" alt="image" src="https://github.com/user-attachments/assets/0aa5e7f1-4463-49c3-9d50-bac83ac974b9" /> After the workshop, please [Take our Survey](feedback.md)  
+
 
 ---
 
