@@ -96,6 +96,27 @@ Click each class below to reveal the corresponding values:
 </ul>
 </details>
 
+<details>
+<summary><strong>schema:CatholicChurch</strong></summary>
+
+<ul>
+  <li>St. Joan of Arc Catholic Church</li>
+</ul>
+</details>  
+
+---
+
+
+### ❓ Part B: Reflective Questions  
+
+Why do you think St. Joan of Arc Catholic Church appears under both <a href="https://schema.org/Organization" target="_blank">`schema:Organization`</a> and <a href="https://schema.org/CatholicChurch" target="_blank">`schema:CatholicChurch`</a>?  
+
+What different aspects of the church do these two classes represent?  
+
+Now try searching for St. Joan of Arc Catholic Church on <a href="https://www.wikidata.org" target="_blank">Wikidata</a>. Do you see more than one result? 
+
+What are the differences between them — and how do the “instance of” values help you interpret whether you're looking at a building or a congregation?  
+
 ---
 
 **💡 Try this:**  
@@ -113,7 +134,8 @@ ex:stJoanOfArcCathChurch a [REPLACE WITH A SCHEMA CLASS HERE] ;
     
 </textarea>
 
-> _Bonus challenge:_ Can you find a Wikidata Q-ID or a uri from a name authority file for any of the people, places, or organizations listed?
+> _Bonus challenge:_ Can you strengthen the connection between your Schema.org entity and its counterpart in Wikidata?
+> Add a triple to your statement using the Wikidata Q-number for the matching item and the property skos:closeMatch.
 
 
 
