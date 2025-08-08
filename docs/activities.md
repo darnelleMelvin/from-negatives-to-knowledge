@@ -113,9 +113,9 @@ Why do you think St. Joan of Arc Catholic Church appears under both <a href="htt
 
 What different aspects of the church do these two classes represent?  
 
-Now try searching for St. Joan of Arc Catholic Church on <a href="https://www.wikidata.org" target="_blank">Wikidata</a>. Do you see more than one result? 
+Now try searching for the Clark County Nevada version of **St. Joan of Arc Catholic Church** on <a href="https://www.wikidata.org/w/index.php?search=St.+Joan+of+Arc+Catholic+Church&title=Special%3ASearch&profile=advanced&fulltext=1&ns0=1" target="_blank">Wikidata</a>. Do you see more than one result? 
 
-What are the differences between them — and how do the “instance of” values help you interpret whether you're looking at a building or a congregation?  
+What are the differences between them — and how do the ***instance of (wdt:P31)*** values help you interpret whether you're looking at a building or a congregation?  
 
 ---
 
